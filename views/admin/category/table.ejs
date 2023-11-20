@@ -1,0 +1,74 @@
+<form action="/category/delete_pilih" method="post">
+<table id="example2" class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Akse</th>
+
+        </tr>
+    </thead>
+    <tbody>
+       
+    <input class="mt-130" type="checkbox" id="idallCategory"> Select All
+    
+       
+        <% for(let i=0;i < category.length; i++){ %>
+            
+            <tr>
+                <td>
+                    <input type="checkbox" name="idPilih" class="idPilih" value="<%=category[i]._id%>">
+                </td>
+                <td>
+                    <%= i+1 %>
+                </td>
+                <td>
+                    <%= category[i].name %>
+                </td>
+                <td>
+                    <a href="/category/edit/<%= category[i]._id %>" class="btn btn-warning"><i
+                            class="fas fa-pencil-alt"> Ubah</i></a>
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                        data-target="#modalHapus<%= category[i]._id %>" data-id="42"><i class="fas fa-trash">
+                            Hapus</i></button>
+                </td>
+            </tr>
+            <% } %>
+    </tbody>
+</table>
+<div class="card-body">
+    <button type="submit" class="btn btn-danger">Hapus yang dipilih</button>
+</div>
+</form>
+<!-- Modal Delete -->
+<% for(let i=0;i < category.length; i++){ %>
+    <div class="modal fade" id="modalHapus<%= category[i]._id %>" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Hapus</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="/category/delete/<%= category[i]._id %>?_method=DELETE" method="post"
+                    style="display:inline-block">
+
+                    <div class="modal-body">
+                        Apakah Yakin ingin menghapus ?
+                            <span class="font-weight-bold text-danger" id='deleteId'></span>
+                    </div>
+                    <di class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                    
+                        <button type="submit" class="btn btn-danger"><i class="fas fa-trash"> Hapus</i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <% } %>
+
+    

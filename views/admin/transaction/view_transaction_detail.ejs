@@ -1,0 +1,117 @@
+<%- include ../../partials/header.ejs %>
+    <%- include ../../partials/navbar.ejs %>
+        <%- include ../../partials/sidebar.ejs %>
+
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <div class="container-fluid">
+                 
+                            <div class="row mb-2">
+                                <div class="col-sm-6">
+                                    <h1>Transaksi Detail <%= transaction.name %></h1>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ol class="breadcrumb float-sm-right">
+                                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                        <li class="breadcrumb-item active">Transaksi Details</li>
+                                    </ol>
+                                </div>
+                            </div>
+                    </div><!-- /.container-fluid -->
+                </section>
+
+                <!-- Main content -->
+                <section class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card">
+                                 
+                                 
+                                <div class="col-6">
+                                   <h5> Nama : <%= transaction.name %> </h5>
+                                </div>
+                                <div class="col-6">
+                                    <h5> AccountUser : <%= transaction.accountUser %>
+                                    </h5>
+                                </div>
+                                
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card">
+                                    <div class="col-12 mt-3">
+                                        <h5> Nama Game :<img width="48px" height="48px" src="<%= url %>/uploads/<%= transaction.historyVoucherTopup.thumbnail%>"
+                                            alt="thumbnail"> <%= transaction.historyVoucherTopup.gameName %>
+                                        </h5>
+                                       
+                                    </div>
+                                    <div class="col-12">
+                                      
+                                        <h5> Kategori Game : <%= transaction.historyVoucherTopup.category %>
+                                        </h5>
+                                       
+                                    </div>
+                                    <div class="col-12">
+                                      
+                                        <h5> Nama Koin : <%= transaction.historyVoucherTopup.coinName %>
+                                        </h5>
+                                      
+                                    </div>
+                                    <div class="col-12">
+                                        
+                                        <h5> Jumlah Koin : <%= transaction.historyVoucherTopup.coinQuantity %>
+                                        </h5>
+                                    </div>
+                                    <div class="col-12">
+                                       
+                                        <h5> Harga : <%= transaction.historyVoucherTopup.price %>
+                                        </h5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- /.row -->
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card">
+                        
+                                    <div class="col-12">
+                                        <h5> Jenis Pembayaran : <%= transaction.historyPayment.type %>
+                                        </h5>
+                                    </div>
+                                    <div class="col-12">
+                                        <h5> Bank : <%= transaction.historyPayment.bankName %>
+                                        </h5>
+                                    </div>
+                                    <div class="col-12">
+                                        <h5> No Rekening : <%= transaction.historyPayment.noRekening %>
+                                        </h5>
+                                    </div>
+                                    <div class="col-12">
+                                        <h5> Status : <%= transaction.status %>
+                                        </h5>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card">
+                        
+                                    Bagian2
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </section>
+                <!-- /.content -->
+            </div>
+            <%- include ../../partials/footer.ejs %>
+                <%- include ../../partials/js.ejs %>

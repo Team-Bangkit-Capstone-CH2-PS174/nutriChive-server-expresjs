@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Midtrans Payment Gateway Example</title>
+</head>
+<body>
+  <form id="payment-form" action="/voca/payment" method="POST">
+    <label for="order-id">Order ID:</label>
+    <input type="text" name="order_id" id="order-id"><br><br>
+
+    <label for="amount">Amount:</label>
+    <input type="text" name="gross_amount" id="amount"><br><br>
+
+    <button type="submit">Pay</button>
+  </form>
+
+  <script src="https://app.sandbox.midtrans.com/snap/snap.js"></script>
+  <script>
+    const form = document.getElementById('payment-form');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const response = await fetch('/voca/payment', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          order_id: form.elements['order_id'].value,
+          gross_amount: form.elements['gross_amount'].value
+        })
+      });
+
+      const result = await response.json();
+
+      snap.pay(result.transaction_token);
+    });
+  </script>
+</body>
+</html>

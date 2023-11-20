@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "60bcee695603e6693630c5de"
+  },
+  "role": "user",
+  "status": "Y",
+  "email": "player@gmail.com",
+  "password": "$2a$10$ht3pRXzkRimCf.qTdS6IuON7SE3/M.MAU4rBG1y8Nap3H/UsIUDWq",
+  "phoneNumber": "08154023799",
+  "username": "player",
+  "name": "player bwa",
+  "avatar": "ab6fd55ecf35e9fe2de4ae26069a28e6.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1622994537946"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1623206876716"
+    }
+  },
+  "__v": 0
+}]

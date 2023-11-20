@@ -1,0 +1,20 @@
+
+<script>
+    //Selected ALL =========================================
+    $("#idallCategory").change(function () { //selected all
+        var $input = $(this);
+        let status = $input.prop("checked"); //get status selected all
+        $(".idPilih").change(function () { //validation for selected all
+            var $id = $(this);
+            let subStatus = $id.prop("checked");
+            if (subStatus === false) {
+                $('#idallCategory').prop('checked', false);
+            } else {
+                $('#idallCategory').prop('checked', true);
+            }
+
+        });
+        $('.idPilih').prop('checked', status); //seleted all for object
+    });
+    //END Selected
+</script>
