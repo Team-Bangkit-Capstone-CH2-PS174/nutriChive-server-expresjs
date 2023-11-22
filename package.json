@@ -1,5 +1,5 @@
 {
-  "name": "bwa-storegg-server",
+  "name": "nutriChive-server-expresjs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
