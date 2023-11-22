@@ -1,0 +1,865 @@
+{
+	"info": {
+		"_postman_id": "5221a619-a44a-4d4f-ab11-34dab94d3aec",
+		"name": "NUtriChave",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12007686",
+		"_collection_link": "https://overdoses.postman.co/workspace/MSIB-Bangkit-~5ce5b283-640c-4014-8b43-4e63956cf8cc/collection/12007686-5221a619-a44a-4d4f-ab11-34dab94d3aec?action=share&source=collection_link&creator=12007686"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "get-Landingpage",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/users/landingpage",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"users",
+								"landingpage"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/players/category",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"players",
+								"category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-detailpage",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/players/603152e0a4dd027eefadde61/detail",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"players",
+								"603152e0a4dd027eefadde61",
+								"detail"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add-checkout",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"voucher\": \"603152e0a4dd027eefadde60\",\n    \"nominal\":\"603152e0a4dd027eefaccf62\",\n    \"payment\":\"60ae253c729f6e288f94cf44\",\n    \"bank\":\"60ae2431196ccd27e6587ab3\",\n    \"name\":\"DANI\",\n    \"accountUser\" :\"1567890987654\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/users/checkout",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"users",
+								"checkout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-history",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"voucher\": \"603152e0a4dd027eefadde60\",\n    \"nominal\":\"603152e0a4dd027eefaccf62\",\n    \"payment\":\"638c46d86c76d2746b20f8b8\",\n    \"bank\":\"60ae2431196ccd27e6587ab3\",\n    \"name\":\"DANI\",\n    \"acountUser\" :\"1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/players/history",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"players",
+								"history"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "pending",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-history-Detail",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"voucher\": \"603152e0a4dd027eefadde60\",\n    \"nominal\":\"603152e0a4dd027eefaccf62\",\n    \"payment\":\"638c46d86c76d2746b20f8b8\",\n    \"bank\":\"60ae2431196ccd27e6587ab3\",\n    \"name\":\"DANI\",\n    \"acountUser\" :\"1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:2000/api/v1/players/history/643e1254f32d3a20219af079/detail",
+							"host": [
+								"localhost"
+							],
+							"port": "2000",
+							"path": [
+								"api",
+								"v1",
+								"players",
+								"history",
+								"643e1254f32d3a20219af079",
+								"detail"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "failed",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-Dashboard",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF5ZXIiOnsiaWQiOiI2NDJhN2RhM2Y4ZThkZTkzNGY5N2U2ZTkiLCJuYW1lIjoiREFOSSBISURBWUFUIiwidXNlcm5hbWUiOiJEQU5JIEhJREFZQVQiLCJlbWFpbCI6ImRhbmloaWRheWF0MDE1QGdtYWlsLmNvbSIsInBob25lTnVtYmVyIjoiMDg1NzIxMTM0ODk3IiwiYXZhdGFyIjoiNDA5YmRhY2Y2MWM3N2NlNTE5YmRiOTRiMmU2MTU5NjgucG5nIn0sImlhdCI6MTY4MTc4NDI4OH0.ZKfHEqw7QjLea0KWtc02DRNT3bMiFkLZ0yILb9CFucs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-profile",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"voucher\": \"603152e0a4dd027eefadde60\",\n    \"nominal\":\"603152e0a4dd027eefaccf62\",\n    \"payment\":\"638c46d86c76d2746b20f8b8\",\n    \"bank\":\"60ae2431196ccd27e6587ab3\",\n    \"name\":\"DANI\",\n    \"acountUser\" :\"1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/players/history/63a90e149f36a99b694a394d",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"players",
+								"history",
+								"63a90e149f36a99b694a394d"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "failed",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update-profile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/Users/danihidayat/Downloads/WhatsApp Image 2022-10-12 at 12.15.57.jpeg"
+								},
+								{
+									"key": "name",
+									"value": "dani",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/players/profile",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"players",
+								"profile"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "failed",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "signUp",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/Users/danihidayat/Downloads/Mukena/WhatsApp Image 2022-12-09 at 07.02.32 (1).jpeg",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "danihidaya21t015@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "SECRET",
+									"type": "text"
+								},
+								{
+									"key": "phoneNumber",
+									"value": "085721134897",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "danihdyt1",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "Dani Hidayat",
+									"type": "text"
+								},
+								{
+									"key": "favorite",
+									"value": "603152e0a4dd027eefacce60",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/auth/signup",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SignIn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\" : \"test@gmail.com\",\n    \"password\" : \"SECRET\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/auth/signin",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "VOCA",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "JDJ5JDEzJHo0S2JldndySkZwU2dyallKYWRqa3VDVTFEbDNSR3Y3L1hTNkh0QnFQSFd0UUl0dU9jM0Iu",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "dummy",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "https://api.sandbox.midtrans.com/v2/charge",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sandbox",
+								"midtrans",
+								"com"
+							],
+							"path": [
+								"v2",
+								"charge"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic U0ItTWlkLXNlcnZlci1oZmgyMnVER05BcWV3Ni19OUdIZUtQVmI6",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"transaction_details\": {\n    \"order_id\": \"ORDER-1620416400\",\n    \"gross_amount\": 10000\n  },\n  \"item_details\": [\n    {\n      \"id\": \"item1\",\n      \"price\": 10000,\n      \"quantity\": 1,\n      \"name\": \"Contoh Item\"\n    }\n  ]\n}\n"
+						},
+						"url": {
+							"raw": "https://api.sandbox.midtrans.com/v2/charge",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sandbox",
+								"midtrans",
+								"com"
+							],
+							"path": [
+								"v2",
+								"charge"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\n        \"gross_amount\": 12,\n        \"order_id\": 310\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2000/midtrans/payment",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2000",
+							"path": [
+								"midtrans",
+								"payment"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Note",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:2000/api/v1/notes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2000",
+							"path": [
+								"api",
+								"v1",
+								"notes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"COba Coba\",\n    \"content\": \"hari ini\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/notes/create",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"notes",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"COba Coba\",\n    \"content\": \"hari ini\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/notes/create",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"notes",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"COba Coba\",\n    \"content\": \"hari ini\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/notes/create",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"notes",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Produk",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:2000/notes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2000",
+							"path": [
+								"notes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"COba Coba\",\n    \"content\": \"hari ini\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/notes/create",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"notes",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"COba Coba\",\n    \"content\": \"hari ini\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/notes/create",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"notes",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"COba Coba\",\n    \"content\": \"hari ini\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/notes/create",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"notes",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "midtrans",
+			"item": [
+				{
+					"name": "callbac",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/players/category",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"players",
+								"category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "payment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{URL_PROD}}/players/category",
+							"host": [
+								"{{URL_PROD}}"
+							],
+							"path": [
+								"players",
+								"category"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF5ZXIiOnsiaWQiOiI2NDJhN2RhM2Y4ZThkZTkzNGY5N2U2ZTkiLCJuYW1lIjoiREFOSSBISURBWUFUIiwidXNlcm5hbWUiOiJEQU5JIEhJREFZQVQiLCJlbWFpbCI6ImRhbmloaWRheWF0MDE1QGdtYWlsLmNvbSIsInBob25lTnVtYmVyIjoiMDg1NzIxMTM0ODk3IiwiYXZhdGFyIjoiNDA5YmRhY2Y2MWM3N2NlNTE5YmRiOTRiMmU2MTU5NjgucG5nIn0sImlhdCI6MTY4MTc4NDI4OH0.ZKfHEqw7QjLea0KWtc02DRNT3bMiFkLZ0yILb9CFucs",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "http://localhost:2000/api/v1",
+			"type": "string"
+		},
+		{
+			"key": "TOKEN",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF5ZXIiOnsiaWQiOiI2NDJhN2RhM2Y4ZThkZTkzNGY5N2U2ZTkiLCJuYW1lIjoiREFOSSBISURBWUFUIiwidXNlcm5hbWUiOiJEQU5JIEhJREFZQVQiLCJlbWFpbCI6ImRhbmloaWRheWF0MDE1QGdtYWlsLmNvbSIsInBob25lTnVtYmVyIjoiMDg1NzIxMTM0ODk3IiwiYXZhdGFyIjoiNDA5YmRhY2Y2MWM3N2NlNTE5YmRiOTRiMmU2MTU5NjgucG5nIn0sImlhdCI6MTY4MTc4NDI4OH0.ZKfHEqw7QjLea0KWtc02DRNT3bMiFkLZ0yILb9CFucs",
+			"type": "string"
+		},
+		{
+			"key": "URL_PROD",
+			"value": "http://103.210.54.196:2000/api/v1",
+			"type": "string"
+		}
+	]
+}
