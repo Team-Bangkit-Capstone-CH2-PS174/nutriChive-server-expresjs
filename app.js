@@ -20,6 +20,7 @@ var authRouter = require('./app/auth/router');
 var vocaRouter = require('./app/voca/router');
 var midtransRouter = require('./app/midtrans/router');
 var noteRouter = require('./app/note/router');
+var produkRouter = require('./app/product/router');
 var midtransRouter = require('./app/midtrans/router');
 var app = express();
 const URL = '/api/v1'
@@ -64,7 +65,7 @@ app.use(`${URL}/users`, userRouter);
 app.use(`${URL}/notes`, noteRouter); 
 app.use(`${URL}/auth`, authRouter);
 app.use(`${URL}/midtrans`, midtransRouter);
-
+app.use(`${URL}/products`, produkRouter); 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
