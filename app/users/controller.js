@@ -100,7 +100,7 @@ module.exports = {
                     phoneNumber: res_voucher._doc.user ? res_voucher._doc.user.phoneNumber : undefined,
                   },
                 category: res_voucher._doc.category && res_voucher._doc.category._id,
-                user: res_voucher._doc.user && res_voucher._doc.user._id,
+                admin: res_voucher._doc.user && res_voucher._doc.user._id,
                   
             }
             console.log('====================================');
