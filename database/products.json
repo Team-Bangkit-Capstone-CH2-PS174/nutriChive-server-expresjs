@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "6568369e96ce0ac781d32f7a"
+  },
+  "name": "Nasi Goreng",
+  "image": "https://example.com/images/nasi_goreng.jpg",
+  "categori": "Makanan Utama",
+  "description": "https://www.example.com/nasi-goreng-tutorial",
+  "ingredients": [
+    {
+      "image": "url image Onion",
+      "name": "Onion"
+    },
+    {
+      "image": "Salt image Onion",
+      "name": "Salt"
+    }
+  ],
+  "step": [
+    "1.Langkah 1",
+    "2.Langkah 2",
+    "3.Langkah 3"
+  ]
+},{
+  "_id": {
+    "$oid": "6568369e96ce0ac781d32f7b"
+  },
+  "name": "Nasi Bambu",
+  "image": "https://example.com/images/nasi_goreng.jpg",
+  "categori": "Makanan Utama",
+  "description": "https://www.example.com/nasi-goreng-tutorial",
+  "ingredients": [
+    {
+      "image": "url image Onion",
+      "name": "Onion"
+    },
+    {
+      "image": "Salt image Onion",
+      "name": "Salt"
+    }
+  ],
+  "step": [
+    "1.Langkah 1",
+    "2.Langkah 2",
+    "3.Langkah 3"
+  ]
+}]

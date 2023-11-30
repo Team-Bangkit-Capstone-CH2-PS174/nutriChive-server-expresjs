@@ -12,6 +12,17 @@ module.exports = {
             res.status(500).json({message: err.message || 'internal server error'})
         }
     },
+    listProdukDetail: async (req, res) => {
+      try {
+          const { id } = req.params;
+          const product = await Product.findById({ _id: id });
+          res.status(200).json(product);
+
+          
+      } catch (err) {
+          res.status(500).json({message: err.message || 'internal server error'});
+      }
+  },
     listProdukSearch: async (req, res) => {
       try {
         // Extract search parameters from the request query
