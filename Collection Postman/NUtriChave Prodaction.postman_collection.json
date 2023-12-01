@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "97d24939-6983-4f76-b6be-04c0400f01f6",
+		"name": "NUtriChave Prodaction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12007686",
+		"_collection_link": "https://overdoses.postman.co/workspace/MSIB-Bangkit-~5ce5b283-640c-4014-8b43-4e63956cf8cc/collection/12007686-97d24939-6983-4f76-b6be-04c0400f01f6?action=share&source=collection_link&creator=12007686"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "signUp",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/Users/danihidayat/Downloads/Mukena/WhatsApp Image 2022-12-09 at 07.02.32 (1).jpeg",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "danihidaya21t015@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "SECRET",
+									"type": "text"
+								},
+								{
+									"key": "phoneNumber",
+									"value": "085721134897",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "danihdyt1",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "Dani Hidayat",
+									"type": "text"
+								},
+								{
+									"key": "favorite",
+									"value": "603152e0a4dd027eefacce60",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://34.101.247.166/api/v1/auth/signup",
+							"protocol": "http",
+							"host": [
+								"34",
+								"101",
+								"247",
+								"166"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SignIn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\" : \"test@gmail.com\",\n    \"password\" : \"SECRET\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://34.101.247.166/api/v1/auth/signin",
+							"protocol": "http",
+							"host": [
+								"34",
+								"101",
+								"247",
+								"166"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Produk",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://34.101.247.166/api/v1/products",
+							"protocol": "http",
+							"host": [
+								"34",
+								"101",
+								"247",
+								"166"
+							],
+							"path": [
+								"api",
+								"v1",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://34.101.247.166/api/v1/products/search?keyword=Nasi Goreng",
+							"protocol": "http",
+							"host": [
+								"34",
+								"101",
+								"247",
+								"166"
+							],
+							"path": [
+								"api",
+								"v1",
+								"products",
+								"search"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "Nasi Goreng"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://34.101.247.166/api/v1/products/detail/6568369e96ce0ac781d32f7a",
+							"protocol": "http",
+							"host": [
+								"34",
+								"101",
+								"247",
+								"166"
+							],
+							"path": [
+								"api",
+								"v1",
+								"products",
+								"detail",
+								"6568369e96ce0ac781d32f7a"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF5ZXIiOnsiaWQiOiI2NDJhN2RhM2Y4ZThkZTkzNGY5N2U2ZTkiLCJuYW1lIjoiREFOSSBISURBWUFUIiwidXNlcm5hbWUiOiJEQU5JIEhJREFZQVQiLCJlbWFpbCI6ImRhbmloaWRheWF0MDE1QGdtYWlsLmNvbSIsInBob25lTnVtYmVyIjoiMDg1NzIxMTM0ODk3IiwiYXZhdGFyIjoiNDA5YmRhY2Y2MWM3N2NlNTE5YmRiOTRiMmU2MTU5NjgucG5nIn0sImlhdCI6MTY4MTc4NDI4OH0.ZKfHEqw7QjLea0KWtc02DRNT3bMiFkLZ0yILb9CFucs",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "http://localhost:3000/api/v1",
+			"type": "string"
+		},
+		{
+			"key": "TOKEN",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjU1ZGRjNDU4YzAxYTQ4YTgxM2IwNjlmIiwibmFtZSI6IkRhbmkgSGlkYXlhdCIsInVzZXJuYW1lIjoiZGFuaWhkeXQxIiwiZW1haWwiOiJkYW5paGlkYXlhMjF0MDE1QGdtYWlsLmNvbSIsInBob25lTnVtYmVyIjoiMDg1NzIxMTM0ODk3In0sImlhdCI6MTcwMDc5MzUwM30.ECf5YEaWreZfOTjICIUvdklVl67fBY1eUDnmLScsnnY",
+			"type": "string"
+		},
+		{
+			"key": "URL_PROD",
+			"value": "http://34.101.81.115/api/v1",
+			"type": "string"
+		}
+	]
+}
