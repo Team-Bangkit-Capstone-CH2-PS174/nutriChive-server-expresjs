@@ -1,51 +1,3608 @@
 [{
   "_id": {
-    "$oid": "6568369e96ce0ac781d32f7a"
+    "$oid": "656c82d83ba65b000ca429f3"
   },
-    "code": "001",
-    "name": "Nasi Goreng",
-    "image": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/12003447/X-Resep-Nasi-Goreng-Sederhana-hingga-Spesial-Mudah-dan-Praktis-.jpg",
-    "categori": "Makanan Utama",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam justo nec urna semper, vitae tincidunt turpis convallis. Phasellus eu quam in dolor accumsan pharetra. Ut vestibulum, neque a tincidunt eleifend, elit ex posuere libero, et varius felis justo non justo. Nam vel orci vel felis laoreet auctor. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin in lectus ut nisi accumsan tempus a sit amet justo. Duis euismod hendrerit justo nec congue. Ut luctus mi vitae efficitur volutpat. Integer fermentum semper feugiat.\n\nMaecenas fringilla leo at justo vehicula, sit amet feugiat mi ultrices. Aliquam vel luctus quam. Vivamus fermentum nisi in eros malesuada, eu ultricies libero suscipit. Etiam fermentum libero nec mi elementum, vitae sollicitudin nunc pulvinar. Morbi dignissim augue vitae efficitur facilisis. Quisque eu enim vel augue laoreet tristique. Sed scelerisque justo id justo tincidunt, et dignissim urna dictum. Fusce imperdiet, odio ut fermentum commodo, ligula elit fringilla libero, vel vulputate nunc velit eu neque. Vivamus nec quam eu libero ullamcorper bibendum. Quisque cursus, turpis a blandit rhoncus, lacus dolor ultrices elit, sit amet finibus ex elit at dolor. Curabitur feugiat luctus tincidunt. Sed vulputate feugiat ligula id ultricies. Duis ullamcorper arcu eu felis tincidunt, id posuere tortor pellentesque.\n\nDonec cursus nulla ac quam cursus, vel dapibus risus cursus. Suspendisse potenti. In hac habitasse platea dictumst. Proin bibendum quam ac fringilla volutpat. Integer luctus efficitur velit, vitae efficitur est ultricies vel. Fusce volutpat vel arcu eu tristique. Vestibulum quis tristique lacus, vel vulputate erat. Morbi interdum, ligula vel malesuada tempus, quam dolor luctus sem, id consectetur neque leo a velit. Vivamus scelerisque purus id lorem hendrerit commodo. Sed eget odio nec elit feugiat dignissim id vel metus. Sed accumsan, dui in cursus consequat, lacus risus volutpat justo, a ultrices turpis elit vel elit. Aliquam quis nisi in risus egestas sodales. Integer auctor tellus et mi semper, in fermentum risus luctus. Integer vehicula risus vel orci malesuada, eget tincidunt tortor auctor.\n\nIn tincidunt, arcu vel congue aliquet, justo erat feugiat nisl, in tincidunt libero tellus nec velit. Phasellus tincidunt varius tortor, in posuere libero tincidunt in. Aenean sed fringilla metus. Nullam viverra justo et quam vehicula, at tincidunt dolor bibendum. Vivamus facilisis, libero eu bibendum bibendum, mauris nisl egestas nisi, in vehicula mauris eros et nunc. Fusce ultrices ligula vel neque ultrices, eu euismod felis scelerisque. Etiam sit amet tincidunt massa, at laoreet felis. In hac habitasse platea dictumst.\n",
-    "ingredients":[
-      {
-        "image":"https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/12003447/X-Resep-Nasi-Goreng-Sederhana-hingga-Spesial-Mudah-dan-Praktis-.jpg",
-         "name": "Onion"
-      },
-      {
-
-        "image":"https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/12003447/X-Resep-Nasi-Goreng-Sederhana-hingga-Spesial-Mudah-dan-Praktis-.jpg",
-         "name": "Salt"
-      }
-    ],
-    "step":[
-      "1.Langkah 1",
-      "2.Langkah 2",
-      "3.Langkah 3"
-    ]
-},{
-  "_id": {
-    "$oid": "6568369e96ce0ac781d32f7b"
-  },
-  "code": "002",
-  "name": "Ayam Goreng",
-  "image": "https://tasteofnusa.com/wp-content/uploads/2021/08/ayam-ungkep-32-720x720.jpg",
-  "categori": "Makanan Utama",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam justo nec urna semper, vitae tincidunt turpis convallis. Phasellus eu quam in dolor accumsan pharetra. Ut vestibulum, neque a tincidunt eleifend, elit ex posuere libero, et varius felis justo non justo. Nam vel orci vel felis laoreet auctor. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin in lectus ut nisi accumsan tempus a sit amet justo. Duis euismod hendrerit justo nec congue. Ut luctus mi vitae efficitur volutpat. Integer fermentum semper feugiat.\n\nMaecenas fringilla leo at justo vehicula, sit amet feugiat mi ultrices. Aliquam vel luctus quam. Vivamus fermentum nisi in eros malesuada, eu ultricies libero suscipit. Etiam fermentum libero nec mi elementum, vitae sollicitudin nunc pulvinar. Morbi dignissim augue vitae efficitur facilisis. Quisque eu enim vel augue laoreet tristique. Sed scelerisque justo id justo tincidunt, et dignissim urna dictum. Fusce imperdiet, odio ut fermentum commodo, ligula elit fringilla libero, vel vulputate nunc velit eu neque. Vivamus nec quam eu libero ullamcorper bibendum. Quisque cursus, turpis a blandit rhoncus, lacus dolor ultrices elit, sit amet finibus ex elit at dolor. Curabitur feugiat luctus tincidunt. Sed vulputate feugiat ligula id ultricies. Duis ullamcorper arcu eu felis tincidunt, id posuere tortor pellentesque.\n\nDonec cursus nulla ac quam cursus, vel dapibus risus cursus. Suspendisse potenti. In hac habitasse platea dictumst. Proin bibendum quam ac fringilla volutpat. Integer luctus efficitur velit, vitae efficitur est ultricies vel. Fusce volutpat vel arcu eu tristique. Vestibulum quis tristique lacus, vel vulputate erat. Morbi interdum, ligula vel malesuada tempus, quam dolor luctus sem, id consectetur neque leo a velit. Vivamus scelerisque purus id lorem hendrerit commodo. Sed eget odio nec elit feugiat dignissim id vel metus. Sed accumsan, dui in cursus consequat, lacus risus volutpat justo, a ultrices turpis elit vel elit. Aliquam quis nisi in risus egestas sodales. Integer auctor tellus et mi semper, in fermentum risus luctus. Integer vehicula risus vel orci malesuada, eget tincidunt tortor auctor.\n\nIn tincidunt, arcu vel congue aliquet, justo erat feugiat nisl, in tincidunt libero tellus nec velit. Phasellus tincidunt varius tortor, in posuere libero tincidunt in. Aenean sed fringilla metus. Nullam viverra justo et quam vehicula, at tincidunt dolor bibendum. Vivamus facilisis, libero eu bibendum bibendum, mauris nisl egestas nisi, in vehicula mauris eros et nunc. Fusce ultrices ligula vel neque ultrices, eu euismod felis scelerisque. Etiam sit amet tincidunt massa, at laoreet felis. In hac habitasse platea dictumst.\n",
-  "ingredients":[
+  "name": "Apple pie sederhana.",
+  "description": "Kue pai dengan lapisan kulit yang renyah, diisi dengan potongan apel yang manis dan beraroma rempah.",
+  "ingredients": [
     {
-      "image":"https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/12003447/X-Resep-Nasi-Goreng-Sederhana-hingga-Spesial-Mudah-dan-Praktis-.jpg",
-       "name": "Onion"
+      "name": "5 apel yang sudah dipotong",
+      "image": "https://drive.google.com/uc?export=view&id=1iOk4xL2B_hJW_KVwjMoNmQoXOpwzBQSc"
     },
     {
-
-      "image":"https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/12003447/X-Resep-Nasi-Goreng-Sederhana-hingga-Spesial-Mudah-dan-Praktis-.jpg",
-       "name": "Salt"
+      "name": "5 sdm kismis",
+      "image": "https://drive.google.com/uc?export=view&id=1MpBVLf2RPi_bA-bwmAPtP5dtQ6lvqZk6"
+    },
+    {
+      "name": "3 sdm almond",
+      "image": "https://drive.google.com/uc?export=view&id=1kCsze2Bn-UOWbJXjkAFDkGK_bLeiTedu"
+    },
+    {
+      "name": "4 sdm air lemon",
+      "image": "https://drive.google.com/uc?export=view&id=1C7GJs3tZw2bZf30d9lhGCatjKp091WNw"
+    },
+    {
+      "name": "5 sdm gula pasir",
+      "image": "https://drive.google.com/uc?export=view&id=1cfIpSnsJFR5_bbLannlbCoDzMF5slBU9"
+    },
+    {
+      "name": "2 sdm gula palem",
+      "image": "https://drive.google.com/uc?export=view&id=1sC2LrQoJ-hDlIFSDNmpnR_PgeDJWInnd"
+    },
+    {
+      "name": "1/2 sdt cinnamon bubuk",
+      "image": "https://drive.google.com/uc?export=view&id=1mNPR--QHI7-9KisVM9_LC3iLASYplSk3"
+    },
+    {
+      "name": "1 sdm butter leleh",
+      "image": "https://drive.google.com/uc?export=view&id=1HueVaLxjmDn6GqRIt7W48dmKOr4dcRNO"
+    },
+    {
+      "name": "300 gram tepung terigu segitiga",
+      "image": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V"
+    },
+    {
+      "name": "200 gram butter dingin",
+      "image": "https://drive.google.com/uc?export=view&id=1p25q6n8bJivFHAF1d4DgfwpQMweHNTO6"
+    },
+    {
+      "name": "1 sdt air lemon",
+      "image": "https://drive.google.com/uc?export=view&id=1C7GJs3tZw2bZf30d9lhGCatjKp091WNw"
+    },
+    {
+      "name": "6 sdm air es batu",
+      "image": "https://drive.google.com/uc?export=view&id=1ppE7CICyVn9QcECL-hAZCXC3uIkHjMU6"
+    },
+    {
+      "name": "sejumput garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "kuning telur secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1AxA1-QlSgjkuydhLFXIp-dcWWmhZV3EA"
     }
   ],
-  "step":[
-    "1.Langkah 1",
-    "2.Langkah 2",
-    "3.Langkah 3"
-  ]
+  "step": [
+    "1. Filling: masak semua bahan kecuali almond dan butter. Aduk rata. Masukkan butter lalu almond. Sisihkan",
+    "2. Kulit: campur tepung dan garam. Masukkan butter, aduk rata. Tuangi air es sedikit demi sedikit sambil diaduk terus",
+    "3. Bentuk adonan ke cetakan. Tusuk adonan dengan garpu, isi bahan filling. Kemudian buat anyaman seperti bahan kulit",
+    "4. Masukkan kulkas selama 30 menit",
+    "5. Olesi permukaan dengan bahan olesan, panggang 180 derajat Celcius selama 35 menit."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=17KJElyZW0v6RIVH9kkUiRFgMxeJZfor5"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca429f4"
+  },
+  "name": "Fried apple pie.",
+  "description": "Varian menarik dari pai apel tradisional, pai ini digoreng hingga kecokelatan, memberikan lapisan luar yang renyah dan isian apel yang hangat beraroma kayu manis.",
+  "ingredients": [
+    {
+      "name": "100 g apel malang",
+      "image": "https://drive.google.com/uc?export=view&id=1iOk4xL2B_hJW_KVwjMoNmQoXOpwzBQSc"
+    },
+    {
+      "name": "100 ml air",
+      "image": "https://drive.google.com/uc?export=view&id=18sHIdOEdJgy7QA9ZVZAterz0b-IhmcA0"
+    },
+    {
+      "name": "2 cm kayu manis batangan",
+      "image": "https://drive.google.com/uc?export=view&id=1yshHVXD_8fF_nFTgoRXG2RpO_EaV4Gq-"
+    },
+    {
+      "name": "3 sdm gula pasir",
+      "image": "https://drive.google.com/uc?export=view&id=1cfIpSnsJFR5_bbLannlbCoDzMF5slBU9"
+    },
+    {
+      "name": "2 sdt kayu manis bubuk",
+      "image": "https://drive.google.com/uc?export=view&id=1yshHVXD_8fF_nFTgoRXG2RpO_EaV4Gq-"
+    },
+    {
+      "name": "2 sdm tepung maizena",
+      "image": "https://drive.google.com/uc?export=view&id=1KFMpHGzhFbqJHf8BIa8ZQDRwBG5t4uUN"
+    },
+    {
+      "name": "sedikit garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Adonan kulit:",
+      "image": "220 g tepung terigu"
+    },
+    {
+      "name": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V",
+      "image": "1 sdt garam"
+    },
+    {
+      "name": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi",
+      "image": "70 g mentega"
+    },
+    {
+      "name": "https://drive.google.com/uc?export=view&id=12ab8OWA_g0uJnt0SLSvv8I2Ck3V3zC8K",
+      "image": "4-5 sdm susu cair"
+    },
+    {
+      "name": "https://drive.google.com/uc?export=view&id=1b2zk22aZ-ss3qH3f02j8tMo2k1cSQZgI",
+      "image": "tepung terigu untuk taburan"
+    },
+    {
+      "name": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V",
+      "image": "air untuk mengoles pie"
+    },
+    {
+      "name": "https://drive.google.com/uc?export=view&id=18sHIdOEdJgy7QA9ZVZAterz0b-IhmcA0",
+      "image": "minyak goreng"
+    }
+  ],
+  "step": [
+    "1. Isian: kupas apel, potong lalu bentuk dadu. Rebus bersama kayu manis hingga setengah matang. Beri gula dan kayu manis bubuk, aduk sampai leleh",
+    "2. Larutkan maizena dan garam, masukkan ke adonan isian apel",
+    "3. Kulit: campur tepung dan garam. Masukkan mentega, aduk rata. Perciki susu cair sambil diaduk. Padatkan dan bentuk bola, bungkus dengan plastik, simpan di lemari es selama 15 menit",
+    "3. Gilas adonan setebal 3 mm lalu taburi tepung. Iris adonan jadi segi empat ukuran 12x12 cm",
+    "4. Ambil selembar kulit, beri 2 sdt isian. Olesi pinggiran kulit dengan sedikit air lalu lipat dua",
+    "5. Tekan-tekan pinggirannya dengan garpu. Goreng pie hingga matang."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1tfjz5eneM58WkV6xEl76GRGYJyBscyWO"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca429f5"
+  },
+  "name": "Pisang Molen Jamaika",
+  "description": "Jajanan khas Jamaika berupa pisang matang yang dilapisi adonan beraroma dan digoreng hingga keemasan.",
+  "ingredients": [
+    {
+      "name": "10 buah pisang uli, boleh juga pakai pisang raja",
+      "image": "https://drive.google.com/uc?export=view&id=1wHC5JC2Xb1DTVkCOWn51HXUxtObvGyHP"
+    },
+    {
+      "name": "250 gr tepung terigu serba guna",
+      "image": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V"
+    },
+    {
+      "name": "45 gr mentega",
+      "image": "https://drive.google.com/uc?export=view&id=12ab8OWA_g0uJnt0SLSvv8I2Ck3V3zC8K"
+    },
+    {
+      "name": "1 butir telur, kocok dahulu",
+      "image": "https://drive.google.com/uc?export=view&id=1ghBXlp8LZGZfdZVi9KlzvlMgqiaxwecH"
+    },
+    {
+      "name": "1/2 sdt baking powder",
+      "image": "https://drive.google.com/uc?export=view&id=18jgJxuQ6dk2xxd3Ez4cZrPDm-qz4uBN-"
+    },
+    {
+      "name": "1/2 sdt vanili bubuk",
+      "image": "https://drive.google.com/uc?export=view&id=1nkin_7D7xZSLian2BsUG_tcBrRuLkUmW"
+    },
+    {
+      "name": "2 sdm gula pasir",
+      "image": "https://drive.google.com/uc?export=view&id=1cfIpSnsJFR5_bbLannlbCoDzMF5slBU9"
+    },
+    {
+      "name": "garam sejumput",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "air secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=18sHIdOEdJgy7QA9ZVZAterz0b-IhmcA0"
+    }
+  ],
+  "step": [
+    "1. Campur rata terigu, gula , garam, dan baking powder lalu masukkan mentega, uleni",
+    "2. Tambahkan telur, uleni lagi. Kemudian masukkan air sedikit demi sedikit sampai adonan kalis dan tidak lengket. Jangan sampai kelembekan",
+    "3. Diamkan adonan selama 15 menit di suhu ruang",
+    "4. Uleni lagi adonannya, bagi tiga bagian, masing-masing bagian diberi warna berbeda (merah, kuning dan hijau) lalu ambil sedikit bagian, gilas tipis atau bisa juga pakai alat pembuat mi, potong memanjang dengan ketebalan sekitar 1 cm pada masing-masing warna lalu gabungkan, lilitkan ke potongan pisang sambil agak ditekan. Lakukan sampai semua terbentuk",
+    "5. Goreng pada minyak banyak dengan api sedang. Setelah matang kecokelatan, angkat dan tiriskan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1XQ-uZYv8qkMiaHU5knMY245zuyy93AmB"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca429f6"
+  },
+  "name": "Nugget Pisang Oatmeal.",
+  "description": "Nugget pisang yang bergizi dan lezat, menggabungkan kebaikan pisang dan oatmeal dalam bentuk gigitan yang praktis.",
+  "ingredients": [
+    {
+      "name": "100 gr pisang ambon yang sudah ranum",
+      "image": "https://drive.google.com/uc?export=view&id=13RdsKC3DRzmzYHxk2CqplqfjVOtY7Ted"
+    },
+    {
+      "name": "50 gr quick oats",
+      "image": "https://drive.google.com/uc?export=view&id=1SSSZeUh4i-zYsxk2oWaYZ43qG8CCT1Ur"
+    },
+    {
+      "name": "15 gr kental manis",
+      "image": "https://drive.google.com/uc?export=view&id=1xV0ESsmUWjOryTKf1u0UMOTWWdKsk8E3"
+    },
+    {
+      "name": "1 Butir telur",
+      "image": "https://drive.google.com/uc?export=view&id=1AxA1-QlSgjkuydhLFXIp-dcWWmhZV3EA"
+    },
+    {
+      "name": "1 sdm gula pasir",
+      "image": "https://drive.google.com/uc?export=view&id=1cfIpSnsJFR5_bbLannlbCoDzMF5slBU9"
+    },
+    {
+      "name": "20 gr tepung terigu",
+      "image": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V"
+    },
+    {
+      "name": "4 sdm tepung terigu larutkan dengan air hingga kental",
+      "image": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V"
+    },
+    {
+      "name": "5 sdm quick oats",
+      "image": "https://drive.google.com/uc?export=view&id=1SSSZeUh4i-zYsxk2oWaYZ43qG8CCT1Ur"
+    }
+  ],
+  "step": [
+    "1. Blender semua bahan utama lalu kukus 15 menit hingga matang",
+    "2. Angkat biarkan hangat sebentar",
+    "3. Kemudian potong-potong dan gulingkan pada larutan tepung terigu dan gulingkan lagi di quick oats",
+    "4. Goreng dalam minyak panas sebentar saja",
+    "5. Angkat tiriskan lalu taruh topping atau bisa dicelup di cokelat leleh."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=19ao3wf-zzlWIV3AjHZbGyQfgBcLe8X1k"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca429f7"
+  },
+  "name": "Klepon buah bit.",
+  "description": "Makanan ringan Indonesia yang unik, klepon buah bit merujuk pada kue ketan yang diisi ubi ungu manis, memberikan sensasi rasa dan tekstur yang menyenangkan.",
+  "ingredients": [
+    {
+      "name": "200 gr buah bit",
+      "image": "https://drive.google.com/uc?export=view&id=1N2Dkk5tfF4WfAaTNc1fjtc5cY7b0ORfY"
+    },
+    {
+      "name": "200 gr tepung ketan",
+      "image": "https://drive.google.com/uc?export=view&id=1_uupbFgQNhYMbWxmMAi4p_4kYzQfMnzY"
+    },
+    {
+      "name": "50 gr tepung beras",
+      "image": "https://drive.google.com/uc?export=view&id=1c05fPNC4ShDSbpivuyqcSy5v7f7mWXzF"
+    },
+    {
+      "name": "1/2 sdt garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "1 bungkus vanilli",
+      "image": "https://drive.google.com/uc?export=view&id=1nkin_7D7xZSLian2BsUG_tcBrRuLkUmW"
+    },
+    {
+      "name": "1/2 buah kelapa parut setengah tua taburi 1/4 sdt garam, kukus",
+      "image": "https://drive.google.com/uc?export=view&id=19dHDL_Xnjv0hL7JytRrKfceGVZf4Tfh_"
+    },
+    {
+      "name": "gula merah disisir secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1NPcm6eSzdeCe5tDn4fb93aMcB_kTJ--R"
+    }
+  ],
+  "step": [
+    "1. Kupas buah bit, lalu kukus sebentar dan blender dengan 150 ml air.",
+    "2. Campurkan semua tepung, garam, vanilli lalu tambahkan jus buah bit sedikit demi sedikit hingga adonan bisa dipulung.",
+    "3. Bulat-bulatkan adonan lalu beri isian gula merah. Tutup kembali dan bulatkan sampai adonan habis.",
+    "4. Panaskan air dalam panci hingga mendidih, lalu masukkan adonan yang telah diberi isian. Setelah adonan mengapung baru angkat dan tiriskan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1Vtg0kqxketC_bAhg0xbbzY-GRXjd7QgC"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca429f8"
+  },
+  "name": "Sup ayam buat bit.",
+  "description": "Sup ayam yang gurih dengan tambahan bit, menggabungkan kelezatan ayam dengan kelembutan manis bit.",
+  "ingredients": [
+    {
+      "name": "1 ekor ayam, potong kecil",
+      "image": "https://drive.google.com/uc?export=view&id=1W96iquK8-hGW74QuS6k8vSTM1LRRXqux"
+    },
+    {
+      "name": "2 buah bit ukuran sedang, kupas dan potong sesuai selera",
+      "image": "https://drive.google.com/uc?export=view&id=1N2Dkk5tfF4WfAaTNc1fjtc5cY7b0ORfY"
+    },
+    {
+      "name": "2000 ml air",
+      "image": "https://drive.google.com/uc?export=view&id=18sHIdOEdJgy7QA9ZVZAterz0b-IhmcA0"
+    },
+    {
+      "name": "2 sdt garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "2 sdm kecap asin",
+      "image": "https://drive.google.com/uc?export=view&id=1GcAv9-igfStLdW5lnbEI_4Y9RoZsoWxV"
+    },
+    {
+      "name": "gula secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1cfIpSnsJFR5_bbLannlbCoDzMF5slBU9"
+    }
+  ],
+  "step": [
+    "1. Panaskan potongan ayam bersama air, setelah mendidih biarkan sampai ayam empuk dengan api kecil sekitar 45 - 60 menit.",
+    "2. Setelah ayam empuk, masukkan potongan buah bit, garam, kecap asin, dan gula. Biarkan mendidih kembali.",
+    "3. Tes rasa, lalu setelah buah bit matang, matikan api dan angkat.",
+    "4. Sup ayam buah bit siap dihidangkan."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=1tR4zk0UtF_8iuUCxhQmD6tJZyNWYkeM4"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca429f9"
+  },
+  "name": "Stuffed Bell Peppers",
+  "description": "Bell pepper yang diisi dengan campuran daging cincang, nasi, sayuran, dan rempah-rempah, dipanggang hingga matang.",
+  "ingredients": [
+    {
+      "name": "4 buah paprika (pilih warna yang berbeda untuk variasi)",
+      "image": "https://drive.google.com/uc?export=view&id=1yV7wBjg5CiSYPRS-hGFbmRONcfsKgS7f"
+    },
+    {
+      "name": "1 cup quinoa (dipanaskan dan dimasak)",
+      "image": "https://drive.google.com/uc?export=view&id=1CuslrOXTd8sjOMqOkMM1ZkNsO25XyJO6"
+    },
+    {
+      "name": "1 cup daging cincang (ayam, sapi, atau tahu untuk opsi vegetarian)",
+      "image": "https://drive.google.com/uc?export=view&id=1FlpDLyXGVXh44KEx000zsBQO41ATbhKw"
+    },
+    {
+      "name": "1 cup saus tomat",
+      "image": "https://drive.google.com/uc?export=view&id=1SueBKUjfXeQOEcCwA0evuKQ8q3MFtjMZ"
+    },
+    {
+      "name": "1/2 cup jagung manis",
+      "image": "https://drive.google.com/uc?export=view&id=18q5imXVf2y26Iv1YzRuHFHAe4sHEdv7C"
+    },
+    {
+      "name": "1/2 cup kacang hitam, dikeringkan",
+      "image": "https://drive.google.com/uc?export=view&id=17tTsG-4nsshBfro0j1QO8zokbvhIIdP_"
+    },
+    {
+      "name": "1/2 cup keju parmesan parut",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "1 sendok teh",
+      "image": "https://drive.google.com/uc?export=view&id=13vrxsQnyBYYom6tM-fx_qKXbq0dLjHfK"
+    },
+    {
+      "name": "bubuk cabai (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1u_a-JrxScO6wi7j-SPsCrb9vjQMzu6zR"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Daun ketumbar segar, cincang halus (sebagai hiasan)",
+      "image": "https://drive.google.com/uc?export=view&id=1siSoE8CXVbC3bpA4deXwccU2A9ifaq49"
+    }
+  ],
+  "step": [
+    "Panaskan oven pada suhu 180°C.",
+    "Potong bagian atas bell pepper dan bersihkan bijinya.",
+    "Campur quinoa yang sudah dimasak, daging cincang, saus tomat, jagung, kacang hitam, keju parmesan, bubuk cabai (jika digunakan), garam, dan merica dalam mangkuk besar.",
+    "Isi bell pepper dengan campuran tersebut.",
+    "Letakkan bell pepper di atas loyang dan panggang dalam oven selama 25-30 menit atau hingga bell pepper empuk.",
+    "Taburkan daun ketumbar cincang sebagai hiasan sebelum disajikan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1o7cvpKtbZpvOmSIAM0DjiKqoOSiSI8qd"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca429fa"
+  },
+  "name": "Roasted Bell Pepper Hummus",
+  "description": "Hummus lembut dengan sentuhan rasa paprika panggang, menciptakan saus lezat untuk dicocol dengan sayuran atau roti pita.",
+  "ingredients": [
+    {
+      "name": "2 buah paprika (merah atau kuning), dibelah dan bijinya dibuang",
+      "image": "https://drive.google.com/uc?export=view&id=1z_tEM9tToR9uJeC3Dt1iTazWxzemM7Uh"
+    },
+    {
+      "name": "1 kaleng (400g) kacang chickpea, dikeringkan",
+      "image": "https://drive.google.com/uc?export=view&id=1qt-4b9MV3mgbZLIRVI6bj1JhZfchYxE2"
+    },
+    {
+      "name": "1/4 cup jus lemon",
+      "image": "https://drive.google.com/uc?export=view&id=1CTFbPW1x_1fhTX9TkjZVue1KFq0BEC6N"
+    },
+    {
+      "name": "1/4 cup tahini",
+      "image": "https://drive.google.com/uc?export=view&id=1sZPUaQtkGUC4lTSYwJZVY3bPvkHBLVnJ"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh bubuk komijn",
+      "image": "https://drive.google.com/uc?export=view&id=1a_x4SRZ7rKwxXFS4uqXyhDrE03oXfuXS"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "merica secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "3 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    }
+  ],
+  "step": [
+    "Panaskan oven pada suhu 200°C.",
+    "Letakkan potongan bell pepper di atas loyang dan panggang dalam oven selama 20-25 menit atau hingga kulitnya menghitam.",
+    "Setelah dipanggang, letakkan potongan bell pepper dalam wadah tertutup selama beberapa menit untuk memudahkan pengelupasan kulitnya.",
+    "Kupas kulit bell pepper dan letakkan dalam blender bersama kacang chickpea, jus lemon, tahini, bawang putih, bubuk komijn, garam, dan merica.",
+    "Proses hingga halus, sambil menambahkan minyak zaitun secara perlahan sampai mencapai konsistensi yang diinginkan.",
+    "Sajikan hummus dengan potongan sayuran segar atau dipakai sebagai spread pada roti."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1ko3WWardCnBfuV17sHuzz93LuIho_OK_"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca429fb"
+  },
+  "name": "Stir-Fried Cabbage",
+  "description": "Kubis yang digoreng cepat dengan rempah-rempah aromatik, menciptakan hidangan pendamping yang cepat dan sehat.",
+  "ingredients": [
+    {
+      "name": "1/2 kubis, diiris tipis",
+      "image": "https://drive.google.com/uc?export=view&id=1i-mS3d69BHFFl55xYfXEeiTlCo5U-FeG"
+    },
+    {
+      "name": "1 wortel, diiris julienne",
+      "image": "https://drive.google.com/uc?export=view&id=19pWdIwfRS8sBK4UvnZ0XO4G7_prqQwgH"
+    },
+    {
+      "name": "2 sendok makan minyak sayur",
+      "image": "https://drive.google.com/uc?export=view&id=14Z-flvbqw5kVsaInhZuAEUWt0nZyiNlf"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh kecap asin",
+      "image": "https://drive.google.com/uc?export=view&id=1GcAv9-igfStLdW5lnbEI_4Y9RoZsoWxV"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "merica secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Daun bawang, cincang halus (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1bLQfCHhyb6DgsM5Ud3nUEo-0eyYQiED4"
+    }
+  ],
+  "step": [
+    "Panaskan minyak sayur dalam wajan besar.",
+    "Tumis bawang putih hingga harum.",
+    "Tambahkan kubis dan wortel, aduk rata. Masak hingga sayuran lembut namun tetap renyah.",
+    "Tuangkan kecap asin, garam, dan merica. Aduk rata.",
+    "Sajikan dengan taburan daun bawang sebagai hiasan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1rn5UWHbOQeETVPMlJYwxqhIKuLgt9rFH"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca429fc"
+  },
+  "name": "Cabbage Rolls with Ground Turkey",
+  "description": "Daun kubis yang diisi dengan campuran daging ayam cincang, nasi, dan herba, dipanggang dalam saus berbasis tomat.",
+  "ingredients": [
+    {
+      "name": "1/2 kubis, direbus dan daunnya dipisahkan",
+      "image": "https://drive.google.com/uc?export=view&id=1i-mS3d69BHFFl55xYfXEeiTlCo5U-FeG"
+    },
+    {
+      "name": "250g daging ayam cincang",
+      "image": "https://drive.google.com/uc?export=view&id=17-NipcbefJOsiCZw86SZPsZD6hySF8tZ"
+    },
+    {
+      "name": "1/2 cangkir beras, direbus",
+      "image": "https://drive.google.com/uc?export=view&id=1mBIk_uLlN63dcmcJbYOfO7-NLNGE4Frh"
+    },
+    {
+      "name": "1/4 cangkir saus tomat",
+      "image": "https://drive.google.com/uc?export=view&id=1SueBKUjfXeQOEcCwA0evuKQ8q3MFtjMZ"
+    },
+    {
+      "name": "1 bawang bombay, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=11EommOuDM5bbdDscXXhagq0HwIHkDlYB"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh bubuk cabai",
+      "image": "https://drive.google.com/uc?export=view&id=1u_a-JrxScO6wi7j-SPsCrb9vjQMzu6zR"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "merica secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Kaldu ayam secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1K21sZ6FGGHZhhNz2dr8VAh1htVaJMqZh"
+    }
+  ],
+  "step": [
+    "Panaskan oven pada suhu 180°C.",
+    "Campur daging ayam cincang, beras, saus tomat, bawang bombay, bawang putih, bubuk cabai, garam, dan merica dalam mangkuk besar.",
+    "Letakkan sejumlah campuran daging di setiap daun kubis dan gulung rapat.",
+    "Susun gulungan kubis dalam loyang. Tuangkan kaldu ayam di atasnya.",
+    "Panggang dalam oven selama 30-40 menit atau hingga daun kubis matang dan gulungan daging menjadi empuk."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=1vazK693yTdAIc3hFt3cm7kq6VQCclKhk"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca429fd"
+  },
+  "name": "Grilled Stuffed Peppers",
+  "description": "Bell pepper yang diisi dengan stuffing lezat dan dipanggang hingga sempurna.",
+  "ingredients": [
+    {
+      "name": "4 buah paprika besar (merah, kuning, atau hijau)",
+      "image": "https://drive.google.com/uc?export=view&id=1yV7wBjg5CiSYPRS-hGFbmRONcfsKgS7f"
+    },
+    {
+      "name": "1 cup quinoa, dimasak",
+      "image": "https://drive.google.com/uc?export=view&id=1CuslrOXTd8sjOMqOkMM1ZkNsO25XyJO6"
+    },
+    {
+      "name": "1 cup daging sapi cincang (atau tahu untuk opsi vegetarian)",
+      "image": "https://drive.google.com/uc?export=view&id=1FlpDLyXGVXh44KEx000zsBQO41ATbhKw"
+    },
+    {
+      "name": "1/2 cup jagung manis",
+      "image": "https://drive.google.com/uc?export=view&id=18q5imXVf2y26Iv1YzRuHFHAe4sHEdv7C"
+    },
+    {
+      "name": "1/2 cup kacang hitam, dikeringkan",
+      "image": "https://drive.google.com/uc?export=view&id=17tTsG-4nsshBfro0j1QO8zokbvhIIdP_"
+    },
+    {
+      "name": "1 cup saus tomat",
+      "image": "https://drive.google.com/uc?export=view&id=1SueBKUjfXeQOEcCwA0evuKQ8q3MFtjMZ"
+    },
+    {
+      "name": "Keju parmesan parut",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "merica secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Panggang paprika di atas grill hingga kulitnya sedikit berkerak.",
+    "Sementara itu, tumis daging sapi hingga matang. Campur dengan quinoa, jagung, kacang hitam, dan saus tomat.",
+    "Isi paprika dengan campuran tersebut dan taburkan keju parmesan di atasnya.",
+    "Panggang kembali di grill hingga keju meleleh dan paprika empuk."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=19FoirSufRqWjuBvBKgjB_Yt7z8eDd_QM"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca429fe"
+  },
+  "name": "Capsicum and Chickpea Curry",
+  "description": "Kari lezat yang menggabungkan paprika (capsicum) dan kacang kuda, disajikan dengan bumbu rempah yang kaya.",
+  "ingredients": [
+    {
+      "name": "2 paprika, potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1yV7wBjg5CiSYPRS-hGFbmRONcfsKgS7f"
+    },
+    {
+      "name": "1 kaleng kacang chickpea, dikeringkan",
+      "image": "https://drive.google.com/uc?export=view&id=1Sduow60qFBN__D7eH1GEu8T0AtnE3qFq"
+    },
+    {
+      "name": "1 kaleng tomat cincang",
+      "image": "https://drive.google.com/uc?export=view&id=1M96PpJsTm8V5ZOWu3y8QIpR04N8_wn3o"
+    },
+    {
+      "name": "1 bawang besar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=11EommOuDM5bbdDscXXhagq0HwIHkDlYB"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh bubuk kunyit",
+      "image": "https://drive.google.com/uc?export=view&id=1m_HxoWIQO7TLFuE-uuOknCOrnxkj60yG"
+    },
+    {
+      "name": "1 sendok teh bubuk ketumbar",
+      "image": "https://drive.google.com/uc?export=view&id=1LD3BjmpzI7tMvb9dgSIvNUdRK9EryMHW"
+    },
+    {
+      "name": "1/2 sendok teh bubuk cabai (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1u_a-JrxScO6wi7j-SPsCrb9vjQMzu6zR"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "merica secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Panaskan minyak dalam panci dan tumis bawang serta bawang putih hingga harum.",
+    "Tambahkan bubuk kunyit, bubuk ketumbar, dan bubuk cabai (jika digunakan). Aduk rata.",
+    "Masukkan paprika dan tumis hingga agak lunak.",
+    "Tambahkan kacang chickpea dan tomat cincang. Biarkan mendidih dan masak hingga saus mengental.",
+    "Bumbui dengan garam dan merica sesuai selera.",
+    "Sajikan dengan nasi atau roti."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=11pY5hdpLnwnbYkFe49-Nofee2fVxg2bI"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca429ff"
+  },
+  "name": "Honey Glazed Carrots",
+  "description": "Wortel yang dimasak dengan sempurna dan dilapisi dengan lapisan madu manis.",
+  "ingredients": [
+    {
+      "name": "500g wortel, kupas dan potong serong",
+      "image": "https://drive.google.com/uc?export=view&id=19pWdIwfRS8sBK4UvnZ0XO4G7_prqQwgH"
+    },
+    {
+      "name": "2 sendok makan mentega",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "2 sendok makan madu",
+      "image": "https://drive.google.com/uc?export=view&id=1Cd55H6q9AdZebWmXRFP2bhxuKamcOFNd"
+    },
+    {
+      "name": "1 sendok teh mustard",
+      "image": "https://drive.google.com/uc?export=view&id=1cA-eAqYacZ6Vax6ctJSoVra7b3zNuy0h"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "merica secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Daun peterseli, cincang halus (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1D2d56KAnCOpd0f1t471LwB_6TD6GlDFj"
+    }
+  ],
+  "step": [
+    "Rebus wortel dalam air mendidih dengan sedikit garam hingga setengah matang. Tiriskan.",
+    "Panaskan mentega dalam wajan besar.",
+    "Tambahkan wortel ke dalam wajan dan masak hingga wortel menjadi kecokelatan.",
+    "Campur madu, mustard, garam, dan merica dalam mangkuk kecil. Tuangkan campuran ini ke atas wortel.",
+    "Aduk rata hingga wortel terbalut oleh saus madu.",
+    "Sajikan dengan taburan daun peterseli jika diinginkan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1hmJ_xb_T6CjQOLUF-h_GQIpzFe7soJMy"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a00"
+  },
+  "name": "Carrot and Ginger Soup",
+  "description": "Sup yang nyaman menggabungkan kelembutan wortel dengan kehangatan jahe.",
+  "ingredients": [
+    {
+      "name": "500g wortel, potong kasar",
+      "image": "https://drive.google.com/uc?export=view&id=19pWdIwfRS8sBK4UvnZ0XO4G7_prqQwgH"
+    },
+    {
+      "name": "1 kentang, kupas dan potong",
+      "image": "https://drive.google.com/uc?export=view&id=1tPb7et3-qKOJ_Yn8jVu3sIKyBcZJ-lQX"
+    },
+    {
+      "name": "1 bawang besar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=11EommOuDM5bbdDscXXhagq0HwIHkDlYB"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh jahe, parut",
+      "image": "https://drive.google.com/uc?export=view&id=1fWfjg8oPP84er9aEfA9cEIn6GMll_mtS"
+    },
+    {
+      "name": "4 cangkir kaldu sayuran atau ayam",
+      "image": "https://drive.google.com/uc?export=view&id=1K21sZ6FGGHZhhNz2dr8VAh1htVaJMqZh"
+    },
+    {
+      "name": "2 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "merica secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Yogurt atau krim asam sebagai garnish (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1QCXUvJtQrBvftInHfxXVQvj4fTfEAKt7"
+    }
+  ],
+  "step": [
+    "Panaskan minyak zaitun dalam panci besar dan tumis bawang putih hingga harum.",
+    "Tambahkan wortel, kentang, dan jahe. Tumis sebentar.",
+    "Tuangkan kaldu dan biarkan mendidih. Kemudian, kecilkan api dan biarkan masak hingga sayuran menjadi lembut.",
+    "Angkat panci dari api dan biarkan sedikit mendingin.",
+    "Gunakan blender untuk menghaluskan campuran sayuran sampai halus.",
+    "Kembalikan campuran ke dalam panci, panaskan kembali, dan bumbui dengan garam dan merica.",
+    "Sajikan dengan tambahan yogurt atau krim asam sebagai garnish jika diinginkan."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=1Nw5GDQ31jdvz4krQDK66NBGHJHbxEHGT"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a01"
+  },
+  "name": "Cauliflower Wings",
+  "description": "Bunga kol yang dilapisi adonan renyah dan dipanggang atau digoreng untuk meniru tekstur sayap ayam, sering disajikan dengan saus yang lezat.",
+  "ingredients": [
+    {
+      "name": "1 kepala koliflower, dipotong-potong menjadi floret kecil",
+      "image": "https://drive.google.com/uc?export=view&id=1kW5LdmUoTxAxLGSfCbFJdQQ1058Bzs10"
+    },
+    {
+      "name": "1 cup tepung terigu",
+      "image": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V"
+    },
+    {
+      "name": "1 cup susu (atau susu nabati untuk opsi vegan)",
+      "image": "https://drive.google.com/uc?export=view&id=1b2zk22aZ-ss3qH3f02j8tMo2k1cSQZgI"
+    },
+    {
+      "name": "1 sendok teh paprika bubuk",
+      "image": "https://drive.google.com/uc?export=view&id=1Z8tXjuzoD0czUCEMoSrszaRpIFv-Lq_6"
+    },
+    {
+      "name": "1 sendok teh bubuk bawang putih",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1/2 sendok teh merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "1/2 sendok teh garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Saus sambal atau saus tomat untuk penyajian",
+      "image": "https://drive.google.com/uc?export=view&id=1SueBKUjfXeQOEcCwA0evuKQ8q3MFtjMZ"
+    }
+  ],
+  "step": [
+    "Panaskan oven pada suhu 220°C.",
+    "Campur tepung terigu, susu, paprika bubuk, bubuk bawang putih, merica, dan garam dalam mangkuk hingga membentuk adonan.",
+    "Celupkan setiap floret koliflower ke dalam adonan hingga terbalut rata.",
+    "Susun floret koliflower di atas loyang yang telah diolesi minyak atau ditutup dengan kertas panggangan.",
+    "Panggang dalam oven selama 25-30 menit atau hingga koliflower menjadi kecokelatan dan renyah.",
+    "Sajikan dengan saus sambal atau saus tomat sebagai pelengkap."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1yWrJBLFOgmRFzq2wyddvsZdUCc7BFOsz"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a02"
+  },
+  "name": "Mashed Cauliflower",
+  "description": "Alternatif rendah karbohidrat untuk kentang tumbuk, dengan kol yang dihaluskan menjadi konsistensi yang lembut.",
+  "ingredients": [
+    {
+      "name": "1 kepala bunga kol, dipotong-potong",
+      "image": "https://drive.google.com/uc?export=view&id=1kW5LdmUoTxAxLGSfCbFJdQQ1058Bzs10"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "2 sendok makan mentega",
+      "image": "https://drive.google.com/uc?export=view&id=12ab8OWA_g0uJnt0SLSvv8I2Ck3V3zC8K"
+    },
+    {
+      "name": "1/4 cup keju parmesan parut",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "merica secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Daun bawang cincang atau peterseli sebagai hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=1bLQfCHhyb6DgsM5Ud3nUEo-0eyYQiED4"
+    }
+  ],
+  "step": [
+    "Rebus koliflower dalam air mendidih hingga empuk. Tiriskan.",
+    "Panaskan mentega dalam wajan dan tumis bawang putih hingga harum.",
+    "Masukkan koliflower ke dalam wajan, aduk rata dengan mentega dan bawang putih.",
+    "Hancurkan koliflower dengan alat penghancur atau garpu sampai mencapai tekstur seperti kentang tumbuk.",
+    "Tambahkan keju parmesan, garam, dan merica. Aduk rata hingga keju meleleh.",
+    "Sajikan dengan taburan daun bawang atau peterseli sebagai hiasan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1Sz32AGOjqmS7fSdAWWp5Tz3HdsyEDGzr"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a03"
+  },
+  "name": "Chili con Carne",
+  "description": "Chili pedas yang lezat dengan daging cincang, kacang, tomat, dan rempah chili.",
+  "ingredients": [
+    {
+      "name": "500g daging sapi cincang",
+      "image": "https://drive.google.com/uc?export=view&id=1FlpDLyXGVXh44KEx000zsBQO41ATbhKw"
+    },
+    {
+      "name": "1 kaleng (400g) kacang merah, dikeringkan",
+      "image": "https://drive.google.com/uc?export=view&id=1CW06MfOBMcWbwhZModJUeC_v5rYY5koy"
+    },
+    {
+      "name": "1 kaleng (400g) tomat cincang",
+      "image": "https://drive.google.com/uc?export=view&id=1M96PpJsTm8V5ZOWu3y8QIpR04N8_wn3o"
+    },
+    {
+      "name": "1 buah bawang besar, cincang",
+      "image": "https://drive.google.com/uc?export=view&id=11EommOuDM5bbdDscXXhagq0HwIHkDlYB"
+    },
+    {
+      "name": "2 siung bawang putih, cincang",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "2 buah cabai merah, cincang (sesuai selera pedas)",
+      "image": "https://drive.google.com/uc?export=view&id=1ooIt8tpiT7akm2HGoojZCiWmI0XUMKAB"
+    },
+    {
+      "name": "2 sendok makan bubuk cabai",
+      "image": "https://drive.google.com/uc?export=view&id=1u_a-JrxScO6wi7j-SPsCrb9vjQMzu6zR"
+    },
+    {
+      "name": "1 sendok teh bubuk jinten",
+      "image": "https://drive.google.com/uc?export=view&id=1fXzUWQgZN444OXiS-ts3bqMxGydC3K1U"
+    },
+    {
+      "name": "1 sendok teh gula",
+      "image": "https://drive.google.com/uc?export=view&id=1cfIpSnsJFR5_bbLannlbCoDzMF5slBU9"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Minyak zaitun untuk menumis",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    }
+  ],
+  "step": [
+    "Panaskan minyak zaitun dalam panci besar.",
+    "Tumis bawang dan bawang putih hingga harum.",
+    "Tambahkan daging sapi cincang, masak hingga berubah warna.",
+    "Masukkan cabai, bubuk cabai, dan bubuk jinten. Aduk rata.",
+    "Tuangkan tomat cincang dan kacang merah ke dalam panci.",
+    "Tambahkan gula, garam, dan merica. Biarkan mendidih dan masak hingga daging matang dan rasa bumbu meresap.",
+    "Sajikan dengan nasi atau roti, dan taburkan keju parmesan jika diinginkan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1msivtLGO4TYrOyGMP7oH7y_3g1_YwMfg"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a04"
+  },
+  "name": "Spicy Chili-Lime Grilled Shrimp",
+  "description": "Udang yang dimarinasi dalam saus pedas beraroma jeruk nipis dan dipanggang untuk hidangan yang segar dan lezat.",
+  "ingredients": [
+    {
+      "name": "500g udang besar, dikupas dan dibersihkan",
+      "image": "https://drive.google.com/uc?export=view&id=1F0BGUteHcUfViGKxDeRfBWSIuPw3FEGm"
+    },
+    {
+      "name": "2 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "2 buah cabai merah, cincang halus (sesuai selera pedas)",
+      "image": "https://drive.google.com/uc?export=view&id=1ooIt8tpiT7akm2HGoojZCiWmI0XUMKAB"
+    },
+    {
+      "name": "Kulit dan jus dari 2 jeruk nipis",
+      "image": "https://drive.google.com/uc?export=view&id=13JndkC2le4VviZA8kGtTNHK0oLc7UiO9"
+    },
+    {
+      "name": "2 sendok teh bubuk cabai",
+      "image": "https://drive.google.com/uc?export=view&id=1u_a-JrxScO6wi7j-SPsCrb9vjQMzu6zR"
+    },
+    {
+      "name": "2 sendok teh gula",
+      "image": "https://drive.google.com/uc?export=view&id=1cfIpSnsJFR5_bbLannlbCoDzMF5slBU9"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "merica secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Tusuk sate yang telah direndam air",
+      "image": "https://drive.google.com/uc?export=view&id=1UH_WGfGd-pwDAytrxlkUoinhwUybD8LK"
+    }
+  ],
+  "step": [
+    "Campurkan minyak zaitun, cabai merah, kulit dan jus jeruk nipis, bubuk cabai, gula, garam, dan merica dalam mangkuk.",
+    "Masukkan udang ke dalam campuran bumbu dan biarkan meresap selama 15-20 menit.",
+    "Tusukkan udang pada tusuk sate yang telah direndam air.",
+    "Panaskan grill atau panggangan dan panggang udang selama 2-3 menit setiap sisi atau hingga udang matang dan berwarna kecokelatan.",
+    "Sajikan udang dengan sisa bumbu sebagai saus pelengkap."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1Vcv3rGD35H8DV_ly_UfHTo5MvJwLLg-H"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a05"
+  },
+  "name": "Mexican Street Corn (Elote)",
+  "description": "Jagung panggang yang disajikan dengan campuran mayones, keju cotija, bubuk cabai, dan perasan jeruk nipis—makanan jalanan populer di Meksiko.",
+  "ingredients": [
+    {
+      "name": "4 tongkol jagung, dikupas",
+      "image": "https://drive.google.com/uc?export=view&id=18q5imXVf2y26Iv1YzRuHFHAe4sHEdv7C"
+    },
+    {
+      "name": "1/2 cup mayones",
+      "image": "https://drive.google.com/uc?export=view&id=1BMVIty__Wzub4a3saDD5vQmAM_OQ14yB"
+    },
+    {
+      "name": "1/2 cup keju parmesan parut",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "1 sendok teh bubuk cabai (chili powder)",
+      "image": "https://drive.google.com/uc?export=view&id=1u_a-JrxScO6wi7j-SPsCrb9vjQMzu6zR"
+    },
+    {
+      "name": "1 sendok teh bubuk paprika",
+      "image": "https://drive.google.com/uc?export=view&id=1Z8tXjuzoD0czUCEMoSrszaRpIFv-Lq_6"
+    },
+    {
+      "name": "1 buah jeruk nipis, potong menjadi wedges",
+      "image": "https://drive.google.com/uc?export=view&id=13JndkC2le4VviZA8kGtTNHK0oLc7UiO9"
+    },
+    {
+      "name": "Peterseli atau koriander cincang (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1D2d56KAnCOpd0f1t471LwB_6TD6GlDFj"
+    }
+  ],
+  "step": [
+    "Rebus atau panggang jagung hingga matang.",
+    "Olesi jagung dengan mayones.",
+    "Gulingkan jagung di atas piring yang sudah dicampur keju parmesan, bubuk cabai, dan bubuk paprika.",
+    "Sajikan dengan wedges lime.",
+    "Hias dengan peterseli atau koriander jika diinginkan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=19BzmhmTVZgtMDbUAYqSxfWPjj16VTOzy"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a06"
+  },
+  "name": "Creamy Corn Soup",
+  "description": "Sup jagung yang lembut dan kaya rasa, cocok untuk menghangatkan hari-hari sejuk.",
+  "ingredients": [
+    {
+      "name": "2 cup jagung manis (bisa menggunakan jagung kalengan yang sudah dikeringkan)",
+      "image": "https://drive.google.com/uc?export=view&id=18q5imXVf2y26Iv1YzRuHFHAe4sHEdv7C"
+    },
+    {
+      "name": "1 bawang besar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=11EommOuDM5bbdDscXXhagq0HwIHkDlYB"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "4 cup kaldu sayuran atau ayam",
+      "image": "https://drive.google.com/uc?export=view&id=1K21sZ6FGGHZhhNz2dr8VAh1htVaJMqZh"
+    },
+    {
+      "name": "1/2 cup susu kental manis",
+      "image": "https://drive.google.com/uc?export=view&id=12aEKVfTkoaEyqCYpPzDp2gMROLFLM2OC"
+    },
+    {
+      "name": "2 sendok makan mentega",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Daun seledri cincang sebagai hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=1IUySrU3yIShusVhGD6327lozFuegXHU1"
+    }
+  ],
+  "step": [
+    "Tumis bawang putih dan bawang besar dengan mentega hingga harum.",
+    "Tambahkan jagung dan kaldu. Biarkan mendidih dan masak hingga jagung empuk.",
+    "Angkat sebagian jagung dan haluskan sisa soup dengan blender.",
+    "Campurkan kembali jagung yang diangkat ke dalam soup yang sudah dihaluskan.",
+    "Tambahkan susu kental manis, garam, dan merica. Aduk rata.",
+    "Panaskan kembali tanpa mendidih.",
+    "Sajikan dengan hiasan daun seledri."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1q9Jc5gXdKKA4eu7rbeknDJGAF9-PcBAJ"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a07"
+  },
+  "name": "Cucumber Salad with Feta and Dill",
+  "description": "Salad segar dengan irisan ketimun, keju feta asam, dan dill harum.",
+  "ingredients": [
+    {
+      "name": "2 buah timun, iris tipis",
+      "image": "https://drive.google.com/uc?export=view&id=16x9UNudPtl7GKWUVP8poJ4ZnDEIlQBZd"
+    },
+    {
+      "name": "1/2 cup keju feta, potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "1/4 cup dill segar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1hJm98IgWSz3Rz0hP_Pwj_9Y6gaIS6GTX"
+    },
+    {
+      "name": "1/4 cup bawang merah, iris tipis",
+      "image": "https://drive.google.com/uc?export=view&id=1AOVAtLppqAIHIJ0WjwXFBp7QO8Fuholo"
+    },
+    {
+      "name": "2 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "1 sendok makan cuka putih",
+      "image": "https://drive.google.com/uc?export=view&id=1KNIdZ_5lGImuXkJ09LL3OhxlA-lbJB-M"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Campur timun, keju feta, dill, dan bawang merah dalam mangkuk besar.",
+    "Di mangkuk kecil, aduk rata minyak zaitun, cuka, garam, dan merica.",
+    "Tuangkan campuran cairan di atas timun dan aduk rata.",
+    "Sajikan segera atau dinginkan sebentar sebelum disajikan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=16svc6IC7Ewm3cYDmhl7xikVQV9CFQDbH"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a08"
+  },
+  "name": "Tzatziki Sauce",
+  "description": "Saus Yunani yang terbuat dari yogurt, ketimun, bawang putih, dan mint, sering disajikan sebagai saus segar untuk dicocol.",
+  "ingredients": [
+    {
+      "name": "1 buah timun, parut dan tiriskan kelebihan air",
+      "image": "https://drive.google.com/uc?export=view&id=16x9UNudPtl7GKWUVP8poJ4ZnDEIlQBZd"
+    },
+    {
+      "name": "1 1/2 cup yogurt Yunani",
+      "image": "https://drive.google.com/uc?export=view&id=1QCXUvJtQrBvftInHfxXVQvj4fTfEAKt7"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "1 sendok makan cuka putih",
+      "image": "https://drive.google.com/uc?export=view&id=1KNIdZ_5lGImuXkJ09LL3OhxlA-lbJB-M"
+    },
+    {
+      "name": "1 sendok makan dill segar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1hJm98IgWSz3Rz0hP_Pwj_9Y6gaIS6GTX"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Campur yogurt Yunani, bawang putih, minyak zaitun, cuka, dill, garam, dan merica dalam mangkuk.",
+    "Tambahkan timun yang sudah diparut dan aduk rata.",
+    "Biarkan saus ini duduk dalam lemari es selama beberapa jam agar rasa lebih meresap.",
+    "Sajikan sebagai saus pendamping untuk roti pita, daging panggang, atau sebagai dressing salad."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1-2bCj_krH9NN6BXZgI3AlrfiZ3dwGmnt"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a09"
+  },
+  "name": "Eggplant Parmesan",
+  "description": "Irisan terong yang dilapisi tepung roti, dipanggang dengan saus marinara dan keju meleleh untuk varian vegetarian dari Parmesan klasik.",
+  "ingredients": [
+    {
+      "name": "2 terong, potong memanjang",
+      "image": "https://drive.google.com/uc?export=view&id=1Jb72kuZZKoooyEkuhdF-yvb_PI3b4zQx"
+    },
+    {
+      "name": "2 telur, dikocok lepas",
+      "image": "https://drive.google.com/uc?export=view&id=1ghBXlp8LZGZfdZVi9KlzvlMgqiaxwecH"
+    },
+    {
+      "name": "1 1/2 cup tepung roti",
+      "image": "https://drive.google.com/uc?export=view&id=1mWkrXhzjgNpvPG0pIUXFR_42ox3fYu3y"
+    },
+    {
+      "name": "1 1/2 cup saus tomat",
+      "image": "https://drive.google.com/uc?export=view&id=1SueBKUjfXeQOEcCwA0evuKQ8q3MFtjMZ"
+    },
+    {
+      "name": "1 cup keju mozzarella parut",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "1/2 cup keju parmesan parut",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "2 sendok teh oregano kering",
+      "image": "https://drive.google.com/uc?export=view&id=1G5snO7f0NO_M4oxt4lrJJoELKSSR_jDu"
+    },
+    {
+      "name": "2 sendok teh basil kering",
+      "image": "https://drive.google.com/uc?export=view&id=1_lspO_ii9ZhnNrEcRzvqB07f34tA0Gnq"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Minyak zaitun untuk menggoreng",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    }
+  ],
+  "step": [
+    "Rendam potongan terong dalam air garam selama 30 menit. Tiriskan dan keringkan dengan tisu dapur.",
+    "Campur tepung roti, oregano, basil, garam, dan merica dalam mangkuk.",
+    "Celupkan potongan terong ke dalam telur kocok, lalu gulingkan dalam campuran tepung roti.",
+    "Panaskan minyak zaitun dalam wajan dan goreng terong hingga kecokelatan di kedua sisi. Tiriskan di atas kertas dapur.",
+    "Panaskan oven pada suhu 180°C.",
+    "Susun potongan terong dalam loyang. Tuangkan saus tomat di atasnya.",
+    "Taburkan keju mozzarella dan parmesan di atasnya.",
+    "Panggang dalam oven selama 20-25 menit atau hingga keju meleleh dan berwarna keemasan.",
+    "Sajikan panas."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1-30QCe8PvCa9ZR4qwfl93eayvdS527qO"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a0a"
+  },
+  "name": "Grilled Eggplant with Garlic and Herbs",
+  "description": "Irisan terong yang dimarinasi dalam bawang putih dan herba, kemudian dipanggang untuk cita rasa yang lezat.",
+  "ingredients": [
+    {
+      "name": "2 terong, potong memanjang",
+      "image": "https://drive.google.com/uc?export=view&id=1Jb72kuZZKoooyEkuhdF-yvb_PI3b4zQx"
+    },
+    {
+      "name": "3 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "3 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh thyme kering",
+      "image": "https://drive.google.com/uc?export=view&id=15W0ZGPFXrfO-xD3bGsMZ5kXQ-Rl9RMCC"
+    },
+    {
+      "name": "1 sendok teh rosemary kering",
+      "image": "https://drive.google.com/uc?export=view&id=1Ptw9LVQmEulZWfCFaYaJGi6w1YRYqbj4"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Daun peterseli cincang sebagai hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=1D2d56KAnCOpd0f1t471LwB_6TD6GlDFj"
+    }
+  ],
+  "step": [
+    "Campur minyak zaitun, bawang putih, thyme, rosemary, garam, dan merica dalam mangkuk.",
+    "Sikat campuran minyak ke potongan terong.",
+    "Panaskan grill dan panggang potongan terong hingga matang dan berbekas grill, sekitar 4-5 menit di setiap sisi.",
+    "Sajikan potongan terong yang sudah matang, dan taburkan peterseli di atasnya.",
+    "Hidangkan sebagai hidangan pembuka atau sebagai sajian pendamping."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1-7MVuXMxfaL7aqGGYTjPtu1oUWsZ1bB6"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a0b"
+  },
+  "name": "Aglio e Olio (Pasta with Garlic and Olive Oil)",
+  "description": "Pasta Italia sederhana yang disajikan dengan minyak zaitun, bawang putih, dan merica merah.",
+  "ingredients": [
+    {
+      "name": "250g pasta (spaghetti atau pasta pilihan Anda)",
+      "image": "https://drive.google.com/uc?export=view&id=1eqgYmB9UpKX7IoVT9ag71apQ_LJDDEtM"
+    },
+    {
+      "name": "1/3 cup minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "6 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh lada merah bubuk (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1AXDpTGBr1_E4TdrtPdezPY2qiofueXW7"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica hitam",
+      "image": "https://drive.google.com/uc?export=view&id=1KUysa7OIPXwtIXk9Z2_cF6dXzFqus58E"
+    },
+    {
+      "name": "Keju parmesan parut sebagai hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "Peterseli segar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1D2d56KAnCOpd0f1t471LwB_6TD6GlDFj"
+    }
+  ],
+  "step": [
+    "Rebus pasta sesuai petunjuk kemasan, tiriskan, dan sisihkan.",
+    "Panaskan minyak zaitun dalam wajan besar. Tumis bawang putih dan lada merah bubuk hingga harum.",
+    "Masukkan pasta ke dalam wajan, aduk rata dengan bawang putih dan minyak zaitun.",
+    "Bumbui dengan merica hitam dan garam sesuai selera.",
+    "Hidangkan dengan taburan keju parmesan dan peterseli."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=1-CgMVgf4vxtGof_MdgVz0frMqvKIdfnX"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a0c"
+  },
+  "name": "Roasted Garlic Hummus",
+  "description": "Hummus lembut dengan rasa bawang putih panggang yang kaya, sempurna untuk dicocol atau dioleskan.",
+  "ingredients": [
+    {
+      "name": "1 kaleng kacang chickpea, dikeringkan",
+      "image": "https://drive.google.com/uc?export=view&id=1qt-4b9MV3mgbZLIRVI6bj1JhZfchYxE2"
+    },
+    {
+      "name": "1/4 cup air",
+      "image": "https://drive.google.com/uc?export=view&id=18sHIdOEdJgy7QA9ZVZAterz0b-IhmcA0"
+    },
+    {
+      "name": "1/4 cup jus lemon",
+      "image": "https://drive.google.com/uc?export=view&id=1CTFbPW1x_1fhTX9TkjZVue1KFq0BEC6N"
+    },
+    {
+      "name": "3 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "2 siung bawang putih panggang",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh bubuk komijn",
+      "image": "https://drive.google.com/uc?export=view&id=1a_x4SRZ7rKwxXFS4uqXyhDrE03oXfuXS"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Paprika bubuk dan minyak zaitun untuk hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=1Z8tXjuzoD0czUCEMoSrszaRpIFv-Lq_6"
+    }
+  ],
+  "step": [
+    "Panggang bawang putih dalam oven selama 15-20 menit atau hingga lembut.",
+    "Proses kacang chickpea, air, jus lemon, minyak zaitun, bawang putih panggang, dan bubuk komijn dalam food processor hingga halus.",
+    "Bumbui dengan garam dan merica sesuai selera.",
+    "Sajikan hummus di mangkuk, beri taburan paprika bubuk, dan berikan ceceran minyak zaitun di atasnya.",
+    "Sajikan dengan roti pita atau sayuran segar."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1-I4voVml_pfKFbLVe7YB0keczQb2qXxb"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a0d"
+  },
+  "name": "Ginger Chicken Stir-Fry",
+  "description": "Potongan ayam yang lembut yang digoreng cepat dengan sayuran yang segar dan jahe aromatik, menghasilkan hidangan cepat dan lezat.",
+  "ingredients": [
+    {
+      "name": "500g daging ayam, potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1W96iquK8-hGW74QuS6k8vSTM1LRRXqux"
+    },
+    {
+      "name": "1/4 cup saus kecap",
+      "image": "https://drive.google.com/uc?export=view&id=1GcAv9-igfStLdW5lnbEI_4Y9RoZsoWxV"
+    },
+    {
+      "name": "2 sendok makan saus tiram",
+      "image": "https://drive.google.com/uc?export=view&id=14BAhx1y3nOmQ8YjCsC1p5ILqtv9HokJ_"
+    },
+    {
+      "name": "1 sendok makan jahe, parut",
+      "image": "https://drive.google.com/uc?export=view&id=1fWfjg8oPP84er9aEfA9cEIn6GMll_mtS"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh minyak wijen",
+      "image": "https://drive.google.com/uc?export=view&id=1vWAKA7kdem8j5Pd-BMFHUzZBPCjpBmGb"
+    },
+    {
+      "name": "2 sendok makan minyak sayur",
+      "image": "https://drive.google.com/uc?export=view&id=14Z-flvbqw5kVsaInhZuAEUWt0nZyiNlf"
+    },
+    {
+      "name": "Sayuran (wortel, brokoli, kacang polong), potong sesuai selera",
+      "image": "https://drive.google.com/uc?export=view&id=19pWdIwfRS8sBK4UvnZ0XO4G7_prqQwgH"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Bawang hijau, iris tipis sebagai hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=1z9Jo48AW7l7eLXMdhev6k9aaZuy8-BHQ"
+    }
+  ],
+  "step": [
+    "Campur daging ayam dengan saus kecap, saus tiram, jahe parut, bawang putih, minyak wijen, garam, dan merica. Diamkan selama 15-20 menit.",
+    "Panaskan minyak sayur dalam wajan besar.",
+    "Tumis daging ayam hingga matang dan berwarna kecokelatan.",
+    "Tambahkan sayuran dan aduk rata. Masak hingga sayuran setengah matang.",
+    "Bumbui dengan garam dan merica sesuai selera.",
+    "Sajikan di atas nasi dan hiasi dengan bawang hijau."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=1-LHymLDoiTaSjo0BOFXrPDd_iQ13UE0T"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a0e"
+  },
+  "name": "Ginger Lemon Tea",
+  "description": "Campuran teh yang menenangkan dengan jahe segar dan perasan lemon, terkenal karena sifatnya yang menenangkan dan peningkatan kekebalan.",
+  "ingredients": [
+    {
+      "name": "1 ruas jahe, diparut",
+      "image": "https://drive.google.com/uc?export=view&id=1fWfjg8oPP84er9aEfA9cEIn6GMll_mtS"
+    },
+    {
+      "name": "1 sendok makan madu",
+      "image": "https://drive.google.com/uc?export=view&id=1Cd55H6q9AdZebWmXRFP2bhxuKamcOFNd"
+    },
+    {
+      "name": "1 sendok teh jus lemon",
+      "image": "https://drive.google.com/uc?export=view&id=1CTFbPW1x_1fhTX9TkjZVue1KFq0BEC6N"
+    },
+    {
+      "name": "1 sachet teh hitam atau teh hijau",
+      "image": "https://drive.google.com/uc?export=view&id=13vrxsQnyBYYom6tM-fx_qKXbq0dLjHfK"
+    },
+    {
+      "name": "Air panas",
+      "image": "https://drive.google.com/uc?export=view&id=18sHIdOEdJgy7QA9ZVZAterz0b-IhmcA0"
+    }
+  ],
+  "step": [
+    "Masukkan jahe parut ke dalam gelas.",
+    "Tambahkan madu dan jus lemon.",
+    "Letakkan sachet teh di dalam gelas.",
+    "Tuangkan air panas ke dalam gelas dan aduk rata.",
+    "Diamkan beberapa menit, kemudian angkat sachet teh.",
+    "Sajikan sebagai teh hangat yang menyegarkan."
+  ],
+  "categori": "minuman",
+  "gambar": "https://drive.google.com/uc?export=view&id=1-Ok5yfl9HCFd9AwmjfszUoeEdqS-av2y"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a0f"
+  },
+  "name": "Anggur Bola Mentega Kacang (Peanut Butter Grapes)",
+  "description": "Anggur yang dilapisi mentega kacang lembut dan digulingkan dalam kacang hancur untuk camilan yang memuaskan.",
+  "ingredients": [
+    {
+      "name": "Anggur merah atau hijau (sesuai selera)",
+      "image": "https://drive.google.com/uc?export=view&id=1ALpPx1XwNBDLTsmSbUcDyNmWIXrOMk-q"
+    },
+    {
+      "name": "1/4 cup mentega kacang (peanut butter), pilih yang tidak manis",
+      "image": "https://drive.google.com/uc?export=view&id=1-w-NCUYksuLTBhr8y0cP88PPZby4SF5o"
+    },
+    {
+      "name": "1/4 cup keju cream (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "2 sendok makan madu atau sirup maple",
+      "image": "https://drive.google.com/uc?export=view&id=1Cd55H6q9AdZebWmXRFP2bhxuKamcOFNd"
+    }
+  ],
+  "step": [
+    "Cuci anggur dan tiriskan.",
+    "Campur mentega kacang, keju cream (jika digunakan), dan madu atau sirup maple dalam mangkuk.",
+    "Ambil satu buah anggur, celupkan ke dalam campuran mentega kacang.",
+    "Diamkan sebentar untuk membiarkan lapisan mentega kacang melapisi anggur.",
+    "Sajikan segera atau dinginkan terlebih dahulu sebelum disajikan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=10FxX1YwBl6z_SX0elxIyxgI7kH52g-Qa"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a10"
+  },
+  "name": "Salad Anggur dengan Keju dan Kenari",
+  "description": "Salad anggur yang menyegarkan dengan tambahan keju yang kaya dan kenari yang renyah.",
+  "ingredients": [
+    {
+      "name": "Anggur merah dan hijau, potong menjadi dua atau biarkan utuh",
+      "image": "https://drive.google.com/uc?export=view&id=1ALpPx1XwNBDLTsmSbUcDyNmWIXrOMk-q"
+    },
+    {
+      "name": "Keju feta atau keju biru, potong kecil",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "Kenari panggang, cincang kasar",
+      "image": "https://drive.google.com/uc?export=view&id=1svXfP7BNIYX_kevlmHiXnBPUjfjlHCU4"
+    },
+    {
+      "name": "Daun selada segar",
+      "image": "https://drive.google.com/uc?export=view&id=1OR-VzrfuSIrI2-HKcp_FtyTPR8No3Lh8"
+    },
+    {
+      "name": "Dressing: minyak zaitun, cuka balsamic, madu, garam, dan merica",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    }
+  ],
+  "step": [
+    "Susun daun selada di piring saji.",
+    "Taburkan potongan anggur, keju feta atau biru, dan kenari di atas selada.",
+    "Campurkan bahan untuk dressing sesuai selera dan aduk rata.",
+    "Tuangkan dressing di atas salad sebelum disajikan.",
+    "Aduk perlahan agar dressing merata.",
+    "Sajikan sebagai hidangan pembuka atau sebagai sajian segar."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1-PcH5Vca5nTKKp5b_cjXoH0z--k-I0dM"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a11"
+  },
+  "name": "Jalapeno Poppers (Pencetak Jalapeno)",
+  "description": "Cabai jalapeno yang diisi dengan keju krim, kemudian dilapisi tepung dan digoreng untuk hidangan pembuka yang pedas dan lembut.",
+  "ingredients": [
+    {
+      "name": "8 cabai jalapeno besar, potong setengah dan bersihkan bijinya",
+      "image": "https://drive.google.com/uc?export=view&id=1doMci1QV8TinqDDZBcAQ8NisdahigwXQ"
+    },
+    {
+      "name": "200g keju krim, suhu ruang",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "1 cup keju cheddar parut",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "8 lembar bacon, potong setengah",
+      "image": "https://drive.google.com/uc?export=view&id=1ZYiLOmjHU_3pBRfR_gZ-mu8yMAJ9kRBM"
+    },
+    {
+      "name": "1 sendok teh bawang putih bubuk",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh paprika bubuk",
+      "image": "https://drive.google.com/uc?export=view&id=1Z8tXjuzoD0czUCEMoSrszaRpIFv-Lq_6"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Panaskan oven pada suhu 180°C.",
+    "Campur keju krim, keju cheddar, bawang putih bubuk, paprika bubuk, garam, dan merica dalam mangkuk.",
+    "Isi setiap setengah cabai jalapeno dengan campuran keju.",
+    "Bungkus setiap cabai dengan setengah potongan bacon.",
+    "Susun di atas rak oven dan panggang selama 20-25 menit atau hingga bacon menjadi renyah dan keju meleleh.",
+    "Sajikan segera."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=10CyzJrKWIY8yApDSMJYAr0_eDE1HdGo5"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a12"
+  },
+  "name": "Saus Jalapeno Cream",
+  "description": "Saus krim pedas yang terbuat dari cabai jalapeno, sempurna untuk menambahkan rasa pedas pada berbagai hidangan.",
+  "ingredients": [
+    {
+      "name": "4 cabai jalapeno, diiris tipis",
+      "image": "https://drive.google.com/uc?export=view&id=1doMci1QV8TinqDDZBcAQ8NisdahigwXQ"
+    },
+    {
+      "name": "1/2 cup keju cheddar parut",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "1 cup susu",
+      "image": "https://drive.google.com/uc?export=view&id=1b2zk22aZ-ss3qH3f02j8tMo2k1cSQZgI"
+    },
+    {
+      "name": "2 sendok makan mentega",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "2 sendok makan tepung terigu",
+      "image": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V"
+    },
+    {
+      "name": "1 sendok teh bawang putih bubuk",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Panaskan mentega dalam panci. Tambahkan cabai jalapeno dan tumis hingga harum.",
+    "Tambahkan tepung terigu dan aduk rata hingga terbentuk adonan kental.",
+    "Tuangkan susu perlahan-lahan sambil terus diaduk hingga saus mengental.",
+    "Tambahkan keju cheddar, bawang putih bubuk, garam, dan merica. Aduk rata hingga keju meleleh.",
+    "Biarkan saus mendidih dan tetap aduk selama beberapa menit hingga saus menjadi kental.",
+    "Sajikan sebagai saus pendamping untuk nachos, sayuran, atau daging panggang."
+  ],
+  "categori": "makanan pelengkap",
+  "gambar": "https://drive.google.com/uc?export=view&id=1-Tb0vOXPHxRNQLwbEoydF5oyK_BCYKYy"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a13"
+  },
+  "name": "Kiwi Smoothie Bowl",
+  "description": "Smoothie tebal dan bergizi dengan kiwi, sering disajikan dengan granola, biji-bijian, dan buah segar.",
+  "ingredients": [
+    {
+      "name": "2 buah kiwi, kupas dan potong-potong",
+      "image": "https://drive.google.com/uc?export=view&id=12X1q4fiKz4aMqo4Z1iahlhGgVSkWVL_6"
+    },
+    {
+      "name": "1 pisang matang, potong-potong",
+      "image": "https://drive.google.com/uc?export=view&id=13RdsKC3DRzmzYHxk2CqplqfjVOtY7Ted"
+    },
+    {
+      "name": "1/2 cangkir yogurt alami",
+      "image": "https://drive.google.com/uc?export=view&id=1QCXUvJtQrBvftInHfxXVQvj4fTfEAKt7"
+    },
+    {
+      "name": "1/4 cangkir susu almond atau susu pilihan",
+      "image": "https://drive.google.com/uc?export=view&id=1b2zk22aZ-ss3qH3f02j8tMo2k1cSQZgI"
+    },
+    {
+      "name": "1 sendok makan madu atau pemanis lainnya (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1Cd55H6q9AdZebWmXRFP2bhxuKamcOFNd"
+    },
+    {
+      "name": "Toping opsional: granola, potongan buah-buahan, biji chia",
+      "image": "https://drive.google.com/uc?export=view&id=1vuSJ6Pwmg4nJRqz_u3n6dY_3PLJ-iZal"
+    }
+  ],
+  "step": [
+    "Blen semua buah, yogurt, susu almond, dan madu (jika digunakan) hingga menjadi tekstur smoothie.",
+    "Tuangkan smoothie ke dalam mangkuk.",
+    "Hias dengan granola, potongan buah-buahan, dan biji chia.",
+    "Sajikan segera dan nikmati sebagai sarapan atau camilan sehat."
+  ],
+  "categori": "minuman",
+  "gambar": "https://drive.google.com/uc?export=view&id=10DH6FbkyEI6fXSPdMvcmaiDKGSbM-hiw"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a14"
+  },
+  "name": "Kiwi Salsa",
+  "description": "Salsa yang penuh warna dengan potongan kiwi, tomat, bawang merah, daun ketumbar, dan perasan jeruk nipis—penggabungan yang menyegarkan untuk ikan atau ayam panggang.",
+  "ingredients": [
+    {
+      "name": "4 buah kiwi, kupas dan potong dadu kecil",
+      "image": "https://drive.google.com/uc?export=view&id=12X1q4fiKz4aMqo4Z1iahlhGgVSkWVL_6"
+    },
+    {
+      "name": "1 mangga matang, kupas dan potong dadu kecil",
+      "image": "https://drive.google.com/uc?export=view&id=1kbT2COgqk0E75TBWJDHWjlspYXyA1r5E"
+    },
+    {
+      "name": "1/2 bawang merah, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1AOVAtLppqAIHIJ0WjwXFBp7QO8Fuholo"
+    },
+    {
+      "name": "1 cabai merah, cincang halus (sesuai selera pedas)",
+      "image": "https://drive.google.com/uc?export=view&id=1ooIt8tpiT7akm2HGoojZCiWmI0XUMKAB"
+    },
+    {
+      "name": "1/4 cangkir daun ketumbar segar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1siSoE8CXVbC3bpA4deXwccU2A9ifaq49"
+    },
+    {
+      "name": "1 buah jeruk nipis, peras airnya",
+      "image": "https://drive.google.com/uc?export=view&id=13JndkC2le4VviZA8kGtTNHK0oLc7UiO9"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Campur kiwi, mangga, bawang merah, cabai merah, dan daun ketumbar dalam mangkuk.",
+    "Tambahkan perasan jeruk nipis, garam, dan merica. Aduk rata.",
+    "Biarkan salsa duduk selama beberapa saat untuk meresap rasa.",
+    "Sajikan salsa kiwi ini sebagai pendamping untuk ikan panggang, tacos, atau sebagai saus untuk nachos."
+  ],
+  "categori": "makanan pelengkap",
+  "gambar": "https://drive.google.com/uc?export=view&id=1BfD22Ahrw2617k8JW8uQ9MxMU44-QBzI"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a15"
+  },
+  "name": "Lemon Bars",
+  "description": "Bar yang asam dan manis dengan lapisan kulit mentega dan isian lemon yang segar, ditaburi gula bubuk.",
+  "ingredients": [
+    {
+      "name": "1 cup tepung terigu",
+      "image": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V"
+    },
+    {
+      "name": "1/2 cup mentega tawar, suhu ruang",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "1/4 cup gula halus",
+      "image": "https://drive.google.com/uc?export=view&id=1eE6pZ3vlT2OBEw5Thi6TKpW5IoUmfqZz"
+    },
+    {
+      "name": "Sejumput garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Bahan untuk Topping Lemon:",
+      "image": "2 cup gula halus"
+    },
+    {
+      "name": "https://drive.google.com/uc?export=view&id=1eE6pZ3vlT2OBEw5Thi6TKpW5IoUmfqZz",
+      "image": "4 sendok makan tepung terigu"
+    },
+    {
+      "name": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V",
+      "image": "4 butir telur"
+    },
+    {
+      "name": "https://drive.google.com/uc?export=view&id=1ghBXlp8LZGZfdZVi9KlzvlMgqiaxwecH",
+      "image": "Kulit parut dari 2 buah lemon"
+    },
+    {
+      "name": "https://drive.google.com/uc?export=view&id=1gy29llhZGH04IDClbhKsFvPwWR928xzt",
+      "image": "1/2 cup jus lemon segar"
+    },
+    {
+      "name": "https://drive.google.com/uc?export=view&id=1CTFbPW1x_1fhTX9TkjZVue1KFq0BEC6N",
+      "image": "Gula bubuk untuk taburan (opsional)"
+    }
+  ],
+  "step": [
+    "Panaskan oven pada suhu 180°C. Olesi loyang persegi dengan mentega atau lapisi dengan kertas roti.",
+    "Campur tepung terigu, mentega, gula halus, dan sejumput garam hingga membentuk adonan seperti remah roti. Tekan adonan ke dasar loyang dan panggang selama 15-20 menit atau hingga pinggiran menjadi kecokelatan.",
+    "Sementara itu, untuk topping lemon, campur gula halus, tepung terigu, telur, kulit lemon parut, dan jus lemon segar dalam mangkuk. Aduk rata.",
+    "Tuangkan campuran topping lemon di atas lapisan panggang yang sudah matang.",
+    "Panggang kembali dalam oven selama 20-25 menit atau hingga bagian atasnya mengeras.",
+    "Biarkan dingin, potong menjadi persegi, dan taburi dengan gula bubuk jika diinginkan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1a8u4rJxng6n3dz3OTKzEEodsb9rW1Pfm"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a16"
+  },
+  "name": "Lemon Garlic Roasted Chicken",
+  "description": "Ayam panggang dengan sentuhan lemon dan bawang putih untuk hidangan yang juicy dan aromatik.",
+  "ingredients": [
+    {
+      "name": "1 ekor ayam utuh",
+      "image": "https://drive.google.com/uc?export=view&id=1W96iquK8-hGW74QuS6k8vSTM1LRRXqux"
+    },
+    {
+      "name": "4 sendok makan mentega, dilelehkan",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "4 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "Kulit parut dari 2 buah lemon",
+      "image": "https://drive.google.com/uc?export=view&id=1gy29llhZGH04IDClbhKsFvPwWR928xzt"
+    },
+    {
+      "name": "Jus dari 2 buah lemon",
+      "image": "https://drive.google.com/uc?export=view&id=1gy29llhZGH04IDClbhKsFvPwWR928xzt"
+    },
+    {
+      "name": "2 sendok makan thyme segar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1itOM5ld76BYsv4OsKSfLhFdt_iRzU9xt"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Panaskan oven pada suhu 200°C.",
+    "Campur mentega leleh, bawang putih, kulit lemon parut, jus lemon, thyme, garam, dan merica dalam mangkuk.",
+    "Bersihkan ayam dan keringkan dengan tisu dapur.",
+    "Oleskan campuran mentega dan lemon di seluruh permukaan ayam.",
+    "Panggang dalam oven selama 1 jam atau hingga ayam matang dan kulitnya menjadi kecokelatan.",
+    "Sajikan ayam dengan jus yang dihasilkan selama proses panggang."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=1ubIFfNwHQcy31oOy78npTvT1A3duyzgC"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a17"
+  },
+  "name": "Chicken Caesar Salad",
+  "description": "Caesar salad klasik dengan ayam panggang, selada romaine renyah.",
+  "ingredients": [
+    {
+      "name": "Dada ayam, panggang dan potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1W96iquK8-hGW74QuS6k8vSTM1LRRXqux"
+    },
+    {
+      "name": "Daun selada Romaine, potong-potong",
+      "image": "https://drive.google.com/uc?export=view&id=1OR-VzrfuSIrI2-HKcp_FtyTPR8No3Lh8"
+    },
+    {
+      "name": "Crouton",
+      "image": "https://drive.google.com/uc?export=view&id=1DIPr47y5WaVjLgYFkiTz_eQXyWmyJoxA"
+    },
+    {
+      "name": "Keju parmesan parut",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "Saus Caesar (dapat dibeli atau buat sendiri dengan mayones, anchovy, jus lemon, bawang putih, dan keju parmesan)",
+      "image": "https://drive.google.com/uc?export=view&id=1CTFbPW1x_1fhTX9TkjZVue1KFq0BEC6N"
+    }
+  ],
+  "step": [
+    "Campurkan daun selada Romaine, dada ayam panggang, crouton, dan keju parmesan dalam mangkuk besar.",
+    "Tambahkan saus Caesar sesuai selera.",
+    "Aduk rata hingga selada terbalut dengan saus.",
+    "Sajikan segera sebagai hidangan utama atau sampingan."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=1NWPPUOXuxe0_dPBR6XsG5WiTnltXyFeE"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a18"
+  },
+  "name": "Lettuce Wraps with Ground Turkey",
+  "description": "Wraps yang lezat dengan daging ayam cincang, disajikan dengan daun selada sebagai pengganti roti.",
+  "ingredients": [
+    {
+      "name": "500g daging sapi cincang atau daging ayam cincang",
+      "image": "https://drive.google.com/uc?export=view&id=1W96iquK8-hGW74QuS6k8vSTM1LRRXqux"
+    },
+    {
+      "name": "Daun selada iceberg, dipisahkan",
+      "image": "https://drive.google.com/uc?export=view&id=1OR-VzrfuSIrI2-HKcp_FtyTPR8No3Lh8"
+    },
+    {
+      "name": "1 wortel, parut kasar",
+      "image": "https://drive.google.com/uc?export=view&id=19pWdIwfRS8sBK4UvnZ0XO4G7_prqQwgH"
+    },
+    {
+      "name": "1/2 mentimun, potong dadu kecil",
+      "image": "https://drive.google.com/uc?export=view&id=16x9UNudPtl7GKWUVP8poJ4ZnDEIlQBZd"
+    },
+    {
+      "name": "2 sendok makan saus hoisin",
+      "image": "https://drive.google.com/uc?export=view&id=1No5034EWh3ANx6cygU1ThfXgskxR_5Gv"
+    },
+    {
+      "name": "1 sendok makan kecap asin",
+      "image": "https://drive.google.com/uc?export=view&id=1sikOjcW_9ruL6cBrGYQAMkv_23R2uzt3"
+    },
+    {
+      "name": "1 sendok teh minyak wijen",
+      "image": "https://drive.google.com/uc?export=view&id=1vWAKA7kdem8j5Pd-BMFHUzZBPCjpBmGb"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh jahe, parut",
+      "image": "https://drive.google.com/uc?export=view&id=1fWfjg8oPP84er9aEfA9cEIn6GMll_mtS"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Kacang tanah panggang, cincang kasar (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1CW06MfOBMcWbwhZModJUeC_v5rYY5koy"
+    }
+  ],
+  "step": [
+    "Panaskan minyak dalam wajan dan tumis bawang putih dan jahe hingga harum.",
+    "Tambahkan daging cincang dan masak hingga berubah warna.",
+    "Tambahkan wortel, mentimun, saus hoisin, kecap asin, minyak wijen, garam, dan merica. Aduk rata dan masak hingga sayuran menjadi lembut.",
+    "Ambil daun selada iceberg sebagai wadah untuk isian.",
+    "Isi daun selada dengan campuran daging dan sayuran.",
+    "Taburi dengan kacang tanah panggang jika diinginkan.",
+    "Sajikan sebagai lettuce wraps yang segar."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=1qpmCI-a2hPoWh9u_pdMzMuW8mr0sXTWY"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a19"
+  },
+  "name": "Mango Salsa",
+  "description": "Salsa segar dengan potongan buah yang memberikan sentuhan manis dan asam.",
+  "ingredients": [
+    {
+      "name": "2 mangga matang, potong dadu kecil",
+      "image": "https://drive.google.com/uc?export=view&id=1kbT2COgqk0E75TBWJDHWjlspYXyA1r5E"
+    },
+    {
+      "name": "1/2 bawang merah, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1AOVAtLppqAIHIJ0WjwXFBp7QO8Fuholo"
+    },
+    {
+      "name": "1 cabai merah, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1ooIt8tpiT7akm2HGoojZCiWmI0XUMKAB"
+    },
+    {
+      "name": "Daun ketumbar segar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1siSoE8CXVbC3bpA4deXwccU2A9ifaq49"
+    },
+    {
+      "name": "Jus dari 1-2 jeruk nipis",
+      "image": "https://drive.google.com/uc?export=view&id=13JndkC2le4VviZA8kGtTNHK0oLc7UiO9"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Campur mangga, bawang merah, cabai merah, dan daun ketumbar dalam mangkuk.",
+    "Tambahkan jus jeruk nipis, garam, dan merica sesuai selera.",
+    "Aduk rata dan biarkan selama beberapa menit untuk meresap rasa.",
+    "Sajikan sebagai saus pendamping untuk ikan panggang, tacos, atau sebagai saus untuk nachos."
+  ],
+  "categori": "makanan pelengkap",
+  "gambar": "https://drive.google.com/uc?export=view&id=1Dtb_4oeLl6MRjzYwCP3fcGTmm45W05dF"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a1a"
+  },
+  "name": "Mango Coconut Smoothie",
+  "description": "Smoothie lezat dengan campuran buah tropis, menciptakan minuman yang segar.",
+  "ingredients": [
+    {
+      "name": "1 mangga matang, potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1kbT2COgqk0E75TBWJDHWjlspYXyA1r5E"
+    },
+    {
+      "name": "1/2 cup kelapa parut",
+      "image": "https://drive.google.com/uc?export=view&id=19dHDL_Xnjv0hL7JytRrKfceGVZf4Tfh_"
+    },
+    {
+      "name": "1 cup yogurt alami atau yogurt kelapa",
+      "image": "https://drive.google.com/uc?export=view&id=1QCXUvJtQrBvftInHfxXVQvj4fTfEAKt7"
+    },
+    {
+      "name": "1/2 cup air kelapa",
+      "image": "https://drive.google.com/uc?export=view&id=13Tcq7UeLpK2NjWGuGs5csBpiokGWOqSY"
+    },
+    {
+      "name": "Es batu (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1ppE7CICyVn9QcECL-hAZCXC3uIkHjMU6"
+    },
+    {
+      "name": "Madu atau gula untuk menyesuaikan rasa (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1Cd55H6q9AdZebWmXRFP2bhxuKamcOFNd"
+    }
+  ],
+  "step": [
+    "Blender mangga, kelapa parut, yogurt, dan air kelapa hingga halus.",
+    "Tambahkan es batu jika diinginkan dan blend kembali.",
+    "Cicipi dan tambahkan madu atau gula jika perlu sesuai selera.",
+    "Tuangkan ke dalam gelas dan hidangkan segera sebagai minuman segar."
+  ],
+  "categori": "minuman",
+  "gambar": "https://drive.google.com/uc?export=view&id=1yjJDh3Sj-E-WkOCbpXL9jenRlabXKm-Q"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a1b"
+  },
+  "name": "French Onion Soup",
+  "description": "Sup dengan irisan bawang yang caramelized, disajikan dengan crouton dan keju meleleh.",
+  "ingredients": [
+    {
+      "name": "4 bawang bombay besar, iris tipis",
+      "image": "https://drive.google.com/uc?export=view&id=11EommOuDM5bbdDscXXhagq0HwIHkDlYB"
+    },
+    {
+      "name": "2 sendok makan mentega",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "2 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "1 sendok teh gula",
+      "image": "https://drive.google.com/uc?export=view&id=11EommOuDM5bbdDscXXhagq0HwIHkDlYB"
+    },
+    {
+      "name": "1 sendok teh thyme kering",
+      "image": "https://drive.google.com/uc?export=view&id=15W0ZGPFXrfO-xD3bGsMZ5kXQ-Rl9RMCC"
+    },
+    {
+      "name": "1/2 cangkir anggur merah (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1ALpPx1XwNBDLTsmSbUcDyNmWIXrOMk-q"
+    },
+    {
+      "name": "4 cangkir kaldu daging sapi atau sayuran",
+      "image": "https://drive.google.com/uc?export=view&id=1K21sZ6FGGHZhhNz2dr8VAh1htVaJMqZh"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Baguette, iris tipis",
+      "image": "https://drive.google.com/uc?export=view&id=1_Dr154fGOeb6RFCt0gvzfe5HNFqlpIsL"
+    },
+    {
+      "name": "Keju Gruyere atau keju Swiss, parut",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    }
+  ],
+  "step": [
+    "Panaskan mentega dan minyak zaitun dalam panci besar. Tambahkan bawang, gula, dan thyme. Masak dengan api kecil hingga bawang menjadi caramelized (kecokelatan).",
+    "Jika menggunakan, tambahkan anggur merah untuk deglazing (mengambil sisa-sisa yang melekat di dasar panci).",
+    "Tuangkan kaldu dan biarkan mendidih. Reduksi panas dan biarkan masak selama 15-20 menit. Bumbui dengan garam dan merica.",
+    "Panggang irisan baguette di oven hingga kecokelatan.",
+    "Sajikan sup dalam mangkuk tahan panas, letakkan irisan baguette di atasnya, dan taburi keju parut. Panggang dalam oven hingga keju meleleh dan berwarna keemasan."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=1GNicI_kbFTnSiT88sW4-5s-W4BGQywKE"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a1c"
+  },
+  "name": "Caramelized Onion Dip",
+  "description": "Saus bawang yang dimasak hingga caramelized, cocok sebagai hidangan pembuka untuk dicocol.",
+  "ingredients": [
+    {
+      "name": "2 bawang bombay besar, iris tipis",
+      "image": "https://drive.google.com/uc?export=view&id=11EommOuDM5bbdDscXXhagq0HwIHkDlYB"
+    },
+    {
+      "name": "2 sendok makan mentega",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "1 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "1/2 cup mayones",
+      "image": "https://drive.google.com/uc?export=view&id=1BMVIty__Wzub4a3saDD5vQmAM_OQ14yB"
+    },
+    {
+      "name": "1/2 cup sour cream",
+      "image": "https://drive.google.com/uc?export=view&id=1DRHMMiIDesmZKKFJWsg7BOEnFUE7uWLQ"
+    },
+    {
+      "name": "1 sendok teh saus worcestershire",
+      "image": "https://drive.google.com/uc?export=view&id=1cWrGYS1_ZCc2jmkuXd7eYGdcoawc2R2y"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Bawang putih bubuk (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "Potato chips atau sayuran untuk mencelup",
+      "image": "https://drive.google.com/uc?export=view&id=1TLXU54EzN9tWaZAp9RDUzF-4poHkeqxF"
+    }
+  ],
+  "step": [
+    "Panaskan mentega dan minyak zaitun dalam wajan besar. Tambahkan bawang dan masak dengan api kecil hingga bawang menjadi caramelized.",
+    "Biarkan bawang dingin.",
+    "Campurkan bawang yang sudah dingin dengan mayones, sour cream, saus worcestershire, garam, merica, dan bawang putih bubuk (jika digunakan).",
+    "Aduk rata dan simpan di lemari es selama beberapa jam agar rasa lebih meresap.",
+    "Sajikan dengan potato chips atau sayuran sebagai celupan."
+  ],
+  "categori": "makanan pelengkap",
+  "gambar": "https://drive.google.com/uc?export=view&id=1wrIxFKGTcTAmFJESCtHjbGR7lhhrkBG5"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a1d"
+  },
+  "name": "Orange Chicken",
+  "description": "Hidangan ayam goreng dengan saus jeruk yang manis dan pedas.",
+  "ingredients": [
+    {
+      "name": "500g daging ayam, potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1W96iquK8-hGW74QuS6k8vSTM1LRRXqux"
+    },
+    {
+      "name": "1/2 cup tepung terigu",
+      "image": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V"
+    },
+    {
+      "name": "1/4 cup minyak sayur untuk menggoreng",
+      "image": "https://drive.google.com/uc?export=view&id=14Z-flvbqw5kVsaInhZuAEUWt0nZyiNlf"
+    },
+    {
+      "name": "1/2 cup saus jeruk manis",
+      "image": "https://drive.google.com/uc?export=view&id=1Z0Ix8uepAYS_FciUCyEINeYb4T6FBJ6I"
+    },
+    {
+      "name": "2 sendok makan saus tomat",
+      "image": "https://drive.google.com/uc?export=view&id=1SueBKUjfXeQOEcCwA0evuKQ8q3MFtjMZ"
+    },
+    {
+      "name": "2 sendok makan kecap asin",
+      "image": "https://drive.google.com/uc?export=view&id=1sikOjcW_9ruL6cBrGYQAMkv_23R2uzt3"
+    },
+    {
+      "name": "2 sendok makan madu",
+      "image": "https://drive.google.com/uc?export=view&id=1Cd55H6q9AdZebWmXRFP2bhxuKamcOFNd"
+    },
+    {
+      "name": "1 sendok makan cuka beras",
+      "image": "https://drive.google.com/uc?export=view&id=1KNIdZ_5lGImuXkJ09LL3OhxlA-lbJB-M"
+    },
+    {
+      "name": "1 sendok teh jahe, parut",
+      "image": "https://drive.google.com/uc?export=view&id=1fWfjg8oPP84er9aEfA9cEIn6GMll_mtS"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "Biji wijen dan irisan daun bawang untuk hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=1TodPAoOltSICxK1yraj9LruGTgRwE-rH"
+    }
+  ],
+  "step": [
+    "Balut potongan ayam dalam tepung terigu dan goreng hingga kecokelatan. Tiriskan di atas tisu dapur.",
+    "Dalam wajan, campurkan saus jeruk, saus tomat, kecap asin, madu, cuka beras, jahe, dan bawang putih. Panaskan hingga mendidih.",
+    "Tambahkan potongan ayam yang sudah digoreng ke dalam saus. Aduk rata hingga ayam terbalut dengan saus.",
+    "Sajikan di atas piring dan taburi dengan biji wijen dan irisan daun bawang."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=134YrIwfNvTaKT-LpziYVKPLuq4HdNBKB"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a1e"
+  },
+  "name": "Orange Salad with Mint",
+  "description": "Salad segar dengan irisan buah jeruk, daun mint, dan bawang merah.",
+  "ingredients": [
+    {
+      "name": "Segmen dari 4-5 buah jeruk",
+      "image": "https://drive.google.com/uc?export=view&id=1JLRo_wgPaDOs8ZnS7j1OJmO09nBbSt1C"
+    },
+    {
+      "name": "Daun selada segar",
+      "image": "https://drive.google.com/uc?export=view&id=1OR-VzrfuSIrI2-HKcp_FtyTPR8No3Lh8"
+    },
+    {
+      "name": "1/4 cup daun mint segar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1QofYlQ_pyYjJExpP5vl0w6X4jbalTe_F"
+    },
+    {
+      "name": "1/4 cup kacang almond panggang, cincang kasar",
+      "image": "https://drive.google.com/uc?export=view&id=1kCsze2Bn-UOWbJXjkAFDkGK_bLeiTedu"
+    },
+    {
+      "name": "1 sendok makan madu",
+      "image": "https://drive.google.com/uc?export=view&id=1Cd55H6q9AdZebWmXRFP2bhxuKamcOFNd"
+    },
+    {
+      "name": "2 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Susun segmen jeruk di atas daun selada dalam mangkuk saji.",
+    "Taburkan daun mint dan kacang almond di atasnya.",
+    "Campur madu, minyak zaitun, garam, dan merica dalam mangkuk kecil untuk membuat dressing.",
+    "Siramkan dressing di atas salad sebelum disajikan.",
+    "Aduk perlahan dan sajikan segera."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1aezoYSnuDSI64uBEaE7zxkmyzUJA-oF_"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a1f"
+  },
+  "name": "Stuffed Bell Peppers (Paprika Isi)",
+  "description": "Bell pepper yang diisi dengan campuran daging cincang, nasi, dan bumbu, dipanggang hingga matang.",
+  "ingredients": [
+    {
+      "name": "4 buah paprika (warna pilihan), potong bagian atas dan bersihkan bijinya",
+      "image": "https://drive.google.com/uc?export=view&id=1Sew-SdegbDLX8yi_a0C8pYct4p_DiHe3"
+    },
+    {
+      "name": "1 cup nasi merah atau nasi putih, masak",
+      "image": "https://drive.google.com/uc?export=view&id=1eYjhXj7mLDfRkfYiw5vl5q8VdBzXsSEH"
+    },
+    {
+      "name": "1/2 kg daging sapi cincang atau daging ayam cincang",
+      "image": "https://drive.google.com/uc?export=view&id=17-NipcbefJOsiCZw86SZPsZD6hySF8tZ"
+    },
+    {
+      "name": "1 bawang bombay, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=11EommOuDM5bbdDscXXhagq0HwIHkDlYB"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 kaleng tomat cincang (sekitar 400g)",
+      "image": "https://drive.google.com/uc?export=view&id=1sFhAaXn9EI6TgsQ159SG4OVC-KGFKpcL"
+    },
+    {
+      "name": "1 sendok teh bubuk paprika",
+      "image": "https://drive.google.com/uc?export=view&id=1Z8tXjuzoD0czUCEMoSrszaRpIFv-Lq_6"
+    },
+    {
+      "name": "1 sendok teh biji jintan",
+      "image": "https://drive.google.com/uc?export=view&id=1Mbp3NmbY0x_w_y34JvwJhzPquDsQCriz"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Keju parmesan parut (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "Minyak zaitun untuk menumis",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    }
+  ],
+  "step": [
+    "Panaskan minyak zaitun dalam wajan besar. Tumis bawang bombay dan bawang putih hingga harum.",
+    "Tambahkan daging cincang dan masak hingga berubah warna.",
+    "Masukkan tomat cincang, bubuk paprika, biji jintan, garam, dan merica. Aduk rata dan masak hingga saus mengental.",
+    "Campurkan nasi ke dalam campuran daging.",
+    "Isi paprika dengan campuran daging dan nasi.",
+    "Panggang dalam oven pada suhu 180°C selama 25-30 menit atau hingga paprika menjadi lembut.",
+    "Taburi dengan keju parmesan (jika diinginkan) dan panggang sebentar hingga keju meleleh."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1ZJyIUbq1gkkb_gMNggbl4ojdr7YlJdC5"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a20"
+  },
+  "name": "Roasted Red Pepper Hummus",
+  "description": "Hummus lembut dengan sentuhan rasa paprika panggang, menciptakan saus yang lezat untuk dicocol.",
+  "ingredients": [
+    {
+      "name": "1 kaleng kacang chickpea, dikeringkan",
+      "image": "https://drive.google.com/uc?export=view&id=1qt-4b9MV3mgbZLIRVI6bj1JhZfchYxE2"
+    },
+    {
+      "name": "2 buah paprika merah panggang, kulit dilepas",
+      "image": "https://drive.google.com/uc?export=view&id=1Sew-SdegbDLX8yi_a0C8pYct4p_DiHe3"
+    },
+    {
+      "name": "1/4 cup air",
+      "image": "https://drive.google.com/uc?export=view&id=18sHIdOEdJgy7QA9ZVZAterz0b-IhmcA0"
+    },
+    {
+      "name": "1/4 cup jus lemon",
+      "image": "https://drive.google.com/uc?export=view&id=1CTFbPW1x_1fhTX9TkjZVue1KFq0BEC6N"
+    },
+    {
+      "name": "3 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "2 siung bawang putih",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh bubuk komijn",
+      "image": "https://drive.google.com/uc?export=view&id=1a_x4SRZ7rKwxXFS4uqXyhDrE03oXfuXS"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Paprika merah bubuk dan minyak zaitun untuk hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    }
+  ],
+  "step": [
+    "Proses kacang chickpea, paprika merah panggang, air, jus lemon, minyak zaitun, bawang putih, bubuk komijn, garam, dan merica dalam food processor hingga halus.",
+    "Bumbui dengan garam dan merica sesuai selera.",
+    "Sajikan hummus di mangkuk, beri taburan paprika merah bubuk, dan berikan ceceran minyak zaitun di atasnya.",
+    "Sajikan dengan roti pita atau sayuran segar."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1A59wQqoOxYNXSXJQalMF6YBlKq5IC5We"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a21"
+  },
+  "name": "Pear and Gorgonzola Salad",
+  "description": "Salad dengan perpaduan buah, keju, dan kacang, memberikan rasa manis dan gurih.",
+  "ingredients": [
+    {
+      "name": "Daun selada campur (misalnya, selada romaine atau arugula)",
+      "image": "https://drive.google.com/uc?export=view&id=1OR-VzrfuSIrI2-HKcp_FtyTPR8No3Lh8"
+    },
+    {
+      "name": "2 buah pir, potong-potong",
+      "image": "https://drive.google.com/uc?export=view&id=1wEQOpQwii33MT7ZLICp1sMSiPxkBywlF"
+    },
+    {
+      "name": "1/2 cup keju Gorgonzola atau keju biru, potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "1/4 cup kenari panggang, cincang kasar",
+      "image": "https://drive.google.com/uc?export=view&id=1svXfP7BNIYX_kevlmHiXnBPUjfjlHCU4"
+    },
+    {
+      "name": "Dressing: 3 sendok makan minyak zaitun, 1 sendok makan cuka balsamic, 1 sendok teh madu, garam, dan merica secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    }
+  ],
+  "step": [
+    "Campurkan daun selada, potongan pir, keju Gorgonzola, dan kenari dalam mangkuk besar.",
+    "Dalam mangkuk kecil, aduk rata minyak zaitun, cuka balsamic, madu, garam, dan merica untuk membuat dressing.",
+    "Tuangkan dressing di atas salad dan aduk perlahan agar semua bahan tercampur.",
+    "Sajikan segera sebagai salad segar dan lezat."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1D2qeFev-rTu81NCINl7jGyBqmE4cKW4b"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a22"
+  },
+  "name": "Spiced Poached Pears",
+  "description": "Buah yang dimasak dalam sirup rempah, menciptakan hidangan penutup yang lembut dan aromatik.",
+  "ingredients": [
+    {
+      "name": "4 buah pir, kupas dan biarkan batangnya",
+      "image": "https://drive.google.com/uc?export=view&id=1wEQOpQwii33MT7ZLICp1sMSiPxkBywlF"
+    },
+    {
+      "name": "1 liter air",
+      "image": "https://drive.google.com/uc?export=view&id=18sHIdOEdJgy7QA9ZVZAterz0b-IhmcA0"
+    },
+    {
+      "name": "1 cangkir gula pasir",
+      "image": "https://drive.google.com/uc?export=view&id=1cfIpSnsJFR5_bbLannlbCoDzMF5slBU9"
+    },
+    {
+      "name": "1 batang kayu manis",
+      "image": "https://drive.google.com/uc?export=view&id=1yshHVXD_8fF_nFTgoRXG2RpO_EaV4Gq"
+    },
+    {
+      "name": "2 bunga cengkeh",
+      "image": "https://drive.google.com/uc?export=view&id=1LzxwRfpZ2A0znXpsRMacS2-nm7mATnr8"
+    },
+    {
+      "name": "Kulit jeruk satu buah",
+      "image": "https://drive.google.com/uc?export=view&id=1JLRo_wgPaDOs8ZnS7j1OJmO09nBbSt1C"
+    },
+    {
+      "name": "1 sendok teh ekstrak vanila",
+      "image": "https://drive.google.com/uc?export=view&id=1dzdcaS3dxFvyolEzbvcCegE-JzqhVc01"
+    },
+    {
+      "name": "Yogurt atau es krim vanila untuk penyajian",
+      "image": "https://drive.google.com/uc?export=view&id=1QCXUvJtQrBvftInHfxXVQvj4fTfEAKt7"
+    }
+  ],
+  "step": [
+    "Rebus air dalam panci besar. Tambahkan gula, kayu manis, bunga cengkeh, dan kulit jeruk.",
+    "Setelah gula larut, masukkan pir ke dalam larutan gula dan rempah-rempah. Masak dengan api kecil hingga pir menjadi empuk (sekitar 15-20 menit).",
+    "Angkat pir dari larutan dan biarkan dingin.",
+    "Setelah dingin, letakkan masing-masing pir di atas piring saji.",
+    "Reduksi larutan gula dan rempah-rempah hingga menjadi sirup kental. Tambahkan ekstrak vanila.",
+    "Siramkan sirup di atas pir yang sudah disajikan.",
+    "Hidangkan dengan yogurt atau es krim vanila di sampingnya."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=17GSH90trcjrUZT8HxY4r4523GDpBsHP6"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a23"
+  },
+  "name": "Creamy Pea Soup",
+  "description": "Sup kacang polong yang lembut dan kaya rasa, disajikan dalam konsistensi creamy.",
+  "ingredients": [
+    {
+      "name": "2 cangkir kacang polong beku",
+      "image": "https://drive.google.com/uc?export=view&id=1CW06MfOBMcWbwhZModJUeC_v5rYY5koy"
+    },
+    {
+      "name": "1 bawang bombay, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=11EommOuDM5bbdDscXXhagq0HwIHkDlYB"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "2 kentang, kupas dan potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1tPb7et3-qKOJ_Yn8jVu3sIKyBcZJ-lQX"
+    },
+    {
+      "name": "4 cangkir kaldu sayuran",
+      "image": "https://drive.google.com/uc?export=view&id=1KC6nrlkk8X5Ra938KSL99q1Fq6_aGKxw"
+    },
+    {
+      "name": "1/2 cangkir krim kental",
+      "image": "https://drive.google.com/uc?export=view&id=12aEKVfTkoaEyqCYpPzDp2gMROLFLM2OC"
+    },
+    {
+      "name": "2 sendok makan mentega",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Daun seledri segar untuk hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=1IUySrU3yIShusVhGD6327lozFuegXHU1"
+    }
+  ],
+  "step": [
+    "Panaskan mentega dalam panci besar. Tumis bawang bombay dan bawang putih hingga harum.",
+    "Tambahkan kentang dan kacang polong. Aduk rata.",
+    "Tuangkan kaldu sayuran ke dalam panci dan biarkan mendidih. Reduksi panas dan masak hingga kentang dan kacang polong menjadi lembut.",
+    "Gunakan blender tangan atau blender countertop untuk menghaluskan sup.",
+    "Tambahkan krim kental, garam, dan merica. Aduk rata dan panaskan sebentar.",
+    "Sajikan dalam mangkuk dan hias dengan daun seledri segar."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1eTf8p7tm_l7fOHVMGLQqKh6LYX2hTwXY"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a24"
+  },
+  "name": "Pea and Mint Risotto",
+  "description": "Risotto dengan campuran kacang polong dan daun mint, memberikan cita rasa segar dan lezat.",
+  "ingredients": [
+    {
+      "name": "1 1/2 cangkir beras arborio",
+      "image": "https://drive.google.com/uc?export=view&id=1d0zLgtXEuLQUZboPsvpRrkYOuchkNfct"
+    },
+    {
+      "name": "1/2 cangkir anggur putih",
+      "image": "https://drive.google.com/uc?export=view&id=1SspkRCdmtBtUNpI2C3yjmcnWJMNZSKBN"
+    },
+    {
+      "name": "1 bawang bombay, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=11EommOuDM5bbdDscXXhagq0HwIHkDlYB"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 cangkir kacang polong beku",
+      "image": "https://drive.google.com/uc?export=view&id=1VtmUQhZT-pmKlfZieqDkEBMZE2AQ9xp6"
+    },
+    {
+      "name": "4 cangkir kaldu sayuran, panas",
+      "image": "https://drive.google.com/uc?export=view&id=1KC6nrlkk8X5Ra938KSL99q1Fq6_aGKxw"
+    },
+    {
+      "name": "1/2 cangkir keju parmesan parut",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "2 sendok makan mentega",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "Daun mint segar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1QofYlQ_pyYjJExpP5vl0w6X4jbalTe_F"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Minyak zaitun untuk menumis",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    }
+  ],
+  "step": [
+    "Panaskan minyak zaitun dalam panci besar. Tumis bawang bombay dan bawang putih hingga lembut.",
+    "Tambahkan beras arborio dan aduk hingga beras terlapisi minyak.",
+    "Tuangkan anggur putih ke dalam panci dan biarkan meresap.",
+    "Tambahkan kacang polong dan secara bertahap tambahkan kaldu sayuran satu sendok makan per satu sendok makan sambil terus diaduk hingga beras matang.",
+    "Setelah beras matang, tambahkan mentega dan keju parmesan. Aduk rata.",
+    "Bumbui dengan garam dan merica, dan taburkan daun mint segar di atasnya sebelum disajikan."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=1hE3_tIckDLpGdrgDAiEPT0CTW3YlBiBq"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a25"
+  },
+  "name": "Pineapple Salsa",
+  "description": "Salsa yang menyegarkan dengan potongan buah, tomat, bawang merah, dan daun ketumbar.",
+  "ingredients": [
+    {
+      "name": "1 buah nanas, kupas dan potong dadu kecil",
+      "image": "https://drive.google.com/uc?export=view&id=1vTjZCEFpUM4397xzwcz8Z_ZF-Eil18sf"
+    },
+    {
+      "name": "1 cabai merah, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1ooIt8tpiT7akm2HGoojZCiWmI0XUMKAB"
+    },
+    {
+      "name": "1/2 bawang merah, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1AOVAtLppqAIHIJ0WjwXFBp7QO8Fuholo"
+    },
+    {
+      "name": "Daun ketumbar segar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1siSoE8CXVbC3bpA4deXwccU2A9ifaq49"
+    },
+    {
+      "name": "1/2 sendok teh garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Jus dari 1-2 jeruk nipis",
+      "image": "https://drive.google.com/uc?export=view&id=13JndkC2le4VviZA8kGtTNHK0oLc7UiO9"
+    }
+  ],
+  "step": [
+    "Campurkan nanas, cabai merah, bawang merah, dan daun ketumbar dalam mangkuk.",
+    "Tambahkan garam dan perasan jus jeruk nipis sesuai selera.",
+    "Aduk rata dan biarkan selama beberapa menit untuk meresap rasa.",
+    "Sajikan sebagai saus pendamping untuk ikan panggang, tacos, atau sebagai saus untuk nachos."
+  ],
+  "categori": "makanan peleengkap",
+  "gambar": "https://drive.google.com/uc?export=view&id=1U6i5_ppcvpBzK4flmfV7oFk4P6lT86T7"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a26"
+  },
+  "name": "Pineapple Coconut Smoothie",
+  "description": "Smoothie lezat dengan campuran buah dan kelapa, memberikan sensasi tropis yang menyegarkan.",
+  "ingredients": [
+    {
+      "name": "1 cangkir potongan nanas",
+      "image": "https://drive.google.com/uc?export=view&id=1vTjZCEFpUM4397xzwcz8Z_ZF-Eil18sf"
+    },
+    {
+      "name": "1/2 cangkir susu kelapa",
+      "image": "https://drive.google.com/uc?export=view&id=19PkN0cTI1F9AM-cFwWxJjgIe2UJdqdsM"
+    },
+    {
+      "name": "1/2 cangkir yogurt kelapa atau yogurt plain",
+      "image": "https://drive.google.com/uc?export=view&id=1QCXUvJtQrBvftInHfxXVQvj4fTfEAKt7"
+    },
+    {
+      "name": "1 sendok makan madu atau gula (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1Cd55H6q9AdZebWmXRFP2bhxuKamcOFNd"
+    },
+    {
+      "name": "Es batu (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1ppE7CICyVn9QcECL-hAZCXC3uIkHjMU6"
+    }
+  ],
+  "step": [
+    "Blender potongan nanas, susu kelapa, yogurt kelapa, dan madu (jika digunakan) hingga halus.",
+    "Tambahkan es batu jika diinginkan dan blend kembali.",
+    "Cicipi dan tambahkan madu atau gula jika perlu sesuai selera.",
+    "Tuangkan ke dalam gelas dan nikmati sebagai minuman segar."
+  ],
+  "categori": "minuman",
+  "gambar": "https://drive.google.com/uc?export=view&id=1nyE00Ll4txNjsIS708F-9CPslMRoN9K2"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a27"
+  },
+  "name": "Pomegranate Salad with Feta",
+  "description": "Salad dengan kombinasi buah, keju, dan sayuran segar, memberikan rasa manis dan asam.",
+  "ingredients": [
+    {
+      "name": "Daun selada campur (misalnya, selada romaine atau arugula)",
+      "image": "https://drive.google.com/uc?export=view&id=1OR-VzrfuSIrI2-HKcp_FtyTPR8No3Lh8"
+    },
+    {
+      "name": "Butir delima (sejumput atau sesuai selera)",
+      "image": "https://drive.google.com/uc?export=view&id=19ypwqB_1JwrYgdNRB0oqADH5BQcH-9mZ"
+    },
+    {
+      "name": "Keju feta, potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "1/4 cangkir kenari panggang, cincang kasar",
+      "image": "https://drive.google.com/uc?export=view&id=1svXfP7BNIYX_kevlmHiXnBPUjfjlHCU4"
+    },
+    {
+      "name": "Dressing: 3 sendok makan minyak zaitun, 1 sendok makan cuka balsamic, 1 sendok teh madu, garam, dan merica secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    }
+  ],
+  "step": [
+    "Campurkan daun selada, butir delima, keju feta, dan kenari dalam mangkuk besar.",
+    "Dalam mangkuk kecil, aduk rata minyak zaitun, cuka balsamic, madu, garam, dan merica untuk membuat dressing.",
+    "Tuangkan dressing di atas salad dan aduk perlahan agar semua bahan tercampur.",
+    "Sajikan segera sebagai salad segar dan lezat."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1xOi2-Tn-peGB3v8NEaNlHIpJdX7C9072"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a28"
+  },
+  "name": "Pomegranate Molasses Chicken",
+  "description": "Ayam yang dimasak dengan saus buah, memberikan rasa manis dan beraroma.",
+  "ingredients": [
+    {
+      "name": "4 potong daging ayam (pilih bagian yang Anda sukai)",
+      "image": "https://drive.google.com/uc?export=view&id=1W96iquK8-hGW74QuS6k8vSTM1LRRXqux"
+    },
+    {
+      "name": "1/2 cangkir molase delima",
+      "image": "https://drive.google.com/uc?export=view&id=19ypwqB_1JwrYgdNRB0oqADH5BQcH-9mZ"
+    },
+    {
+      "name": "2 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok makan air lemon",
+      "image": "https://drive.google.com/uc?export=view&id=1C7GJs3tZw2bZf30d9lhGCatjKp091WNw"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Biji delima untuk hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=19ypwqB_1JwrYgdNRB0oqADH5BQcH-9mZ"
+    }
+  ],
+  "step": [
+    "Campurkan molase delima, minyak zaitun, bawang putih, air lemon, garam, dan merica dalam mangkuk untuk membuat marinade.",
+    "Rendam potongan ayam dalam marinade selama setidaknya 30 menit (lebih lama lebih baik).",
+    "Panaskan oven pada suhu 200°C.",
+    "Letakkan potongan ayam di loyang dan panggang dalam oven selama 25-30 menit atau hingga ayam matang dan kulitnya kecokelatan.",
+    "Selama proses panggang, olesi ayam dengan sisa marinade untuk memberikan rasa yang lebih intens.",
+    "Sajikan ayam panggang dengan taburan biji delima."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=1YFT0Hqo_fupW5hhpqyvnKydExnij6q9G"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a29"
+  },
+  "name": "Mashed Potatoes",
+  "description": "Kentang tumbuk yang diolah dengan mentega dan susu, menciptakan hidangan lembut dan lezat.",
+  "ingredients": [
+    {
+      "name": "4 kentang besar, kupas dan potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1tPb7et3-qKOJ_Yn8jVu3sIKyBcZJ-lQX"
+    },
+    {
+      "name": "1/2 cangkir susu",
+      "image": "https://drive.google.com/uc?export=view&id=1b2zk22aZ-ss3qH3f02j8tMo2k1cSQZgI"
+    },
+    {
+      "name": "4 sendok makan mentega",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Daun bawang cincang (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1bLQfCHhyb6DgsM5Ud3nUEo-0eyYQiED4"
+    }
+  ],
+  "step": [
+    "Rebus kentang dalam air garam hingga empuk.",
+    "Tiriskan kentang dan masukkan ke dalam mangkuk besar.",
+    "Tambahkan mentega, susu, garam, dan merica.",
+    "Gunakan alat penghalus kentang atau garpu untuk menghaluskan kentang hingga menjadi puree.",
+    "Taburi dengan daun bawang cincang (jika diinginkan) dan sajikan sebagai lauk pendamping."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1YFT0Hqo_fupW5hhpqyvnKydExnij6q9G"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a2a"
+  },
+  "name": "Baked Potato Wedges",
+  "description": "Kentang yang dipotong menjadi wedges, dipanggang hingga kecokelatan, memberikan camilan yang gurih.",
+  "ingredients": [
+    {
+      "name": "4 kentang, cuci bersih dan potong menjadi wedges",
+      "image": "https://drive.google.com/uc?export=view&id=1tPb7et3-qKOJ_Yn8jVu3sIKyBcZJ-lQX"
+    },
+    {
+      "name": "2 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "1 sendok teh bubuk paprika",
+      "image": "https://drive.google.com/uc?export=view&id=1Z8tXjuzoD0czUCEMoSrszaRpIFv-Lq_6"
+    },
+    {
+      "name": "1 sendok teh bubuk bawang putih",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1/2 sendok teh merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Saus yogurt atau saus tomat untuk celupan",
+      "image": "https://drive.google.com/uc?export=view&id=1QCXUvJtQrBvftInHfxXVQvj4fTfEAKt7"
+    }
+  ],
+  "step": [
+    "Panaskan oven pada suhu 220°C.",
+    "Campurkan kentang wedges dengan minyak zaitun, bubuk paprika, bubuk bawang putih, merica, dan garam dalam mangkuk.",
+    "Ratakan kentang di atas loyang yang telah dilapisi kertas panggangan.",
+    "Panggang dalam oven selama 30-35 menit atau hingga kentang kecokelatan dan renyah.",
+    "Sajikan wedges kentang panas dengan saus yogurt atau saus tomat sebagai pelengkap."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1MpuBGxhAgfCy9-Lj7oth880G4EdX5AF3"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a2b"
+  },
+  "name": "Radish and Cucumber Salad",
+  "description": "Salad segar dengan irisan lobak dan ketimun, diberi rasa dengan saus yang menyegarkan.",
+  "ingredients": [
+    {
+      "name": "1 ikat lobak, kupas dan iris tipis",
+      "image": "https://drive.google.com/uc?export=view&id=1ciCVCecUH2L7GlE-0tKk3T6yBtdWIMz_"
+    },
+    {
+      "name": "1 buah mentimun, kupas dan iris tipis",
+      "image": "https://drive.google.com/uc?export=view&id=16x9UNudPtl7GKWUVP8poJ4ZnDEIlQBZd"
+    },
+    {
+      "name": "Daun ketumbar segar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1siSoE8CXVbC3bpA4deXwccU2A9ifaq49"
+    },
+    {
+      "name": "Jus dari 1-2 jeruk nipis",
+      "image": "https://drive.google.com/uc?export=view&id=13JndkC2le4VviZA8kGtTNHK0oLc7UiO9"
+    },
+    {
+      "name": "1 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Campurkan iris lobak dan mentimun dalam mangkuk.",
+    "Tambahkan daun ketumbar cincang.",
+    "Persiapkan dressing dengan mencampurkan jus jeruk nipis, minyak zaitun, garam, dan merica dalam mangkuk kecil.",
+    "Tuangkan dressing di atas salad dan aduk rata.",
+    "Biarkan selama beberapa menit agar rasa meresap.",
+    "Sajikan sebagai salad segar."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=159bkU17AIsxswrc7v1ZKcHtdZViYPxE_"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a2c"
+  },
+  "name": "Roasted Radishes",
+  "description": "Lobak yang dipanggang hingga keemasan, menciptakan hidangan yang lezat dengan tekstur yang unik.",
+  "ingredients": [
+    {
+      "name": "1 ikat lobak, potong menjadi setengah atau perempat tergantung ukuran",
+      "image": "https://drive.google.com/uc?export=view&id=1ciCVCecUH2L7GlE-0tKk3T6yBtdWIMz_"
+    },
+    {
+      "name": "1 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Paprika bubuk (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1Z8tXjuzoD0czUCEMoSrszaRpIFv-Lq_6"
+    },
+    {
+      "name": "Biji wijen (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1TodPAoOltSICxK1yraj9LruGTgRwE-rH"
+    }
+  ],
+  "step": [
+    "Panaskan oven pada suhu 200°C.",
+    "Campurkan potongan lobak dengan minyak zaitun, garam, dan merica dalam mangkuk.",
+    "Sebar lobak di atas loyang panggangan yang telah dilapisi kertas panggangan.",
+    "Panggang dalam oven selama 15-20 menit atau hingga lobak menjadi kecokelatan dan empuk.",
+    "Taburi dengan paprika bubuk dan biji wijen (jika diinginkan) sebelum disajikan.",
+    "Sajikan sebagai camilan atau lauk pendamping."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1UiLxXokeyetbozucZ9JMiycdh_-Znk2l"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a2d"
+  },
+  "name": "Stir-Fried Soy Beans",
+  "description": "Kacang kedelai yang digoreng cepat dengan rempah-rempah, menciptakan camilan yang renyah dan penuh rasa.",
+  "ingredients": [
+    {
+      "name": "2 cangkir kedelai muda (soy beans), bersihkan",
+      "image": "https://drive.google.com/uc?export=view&id=1Mcxf2gYO-Xb88UNicmBM6BtV_Ir4CU3w"
+    },
+    {
+      "name": "2 sendok makan minyak sayur",
+      "image": "https://drive.google.com/uc?export=view&id=14Z-flvbqw5kVsaInhZuAEUWt0nZyiNlf"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1 sendok teh kecap asin",
+      "image": "https://drive.google.com/uc?export=view&id=1sikOjcW_9ruL6cBrGYQAMkv_23R2uzt3"
+    },
+    {
+      "name": "1 sendok teh kecap manis",
+      "image": "https://drive.google.com/uc?export=view&id=1GcAv9-igfStLdW5lnbEI_4Y9RoZsoWxV"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Daun bawang cincang untuk hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=1bLQfCHhyb6DgsM5Ud3nUEo-0eyYQiED4"
+    }
+  ],
+  "step": [
+    "Panaskan minyak sayur dalam wajan besar atau wajan penggorengan.",
+    "Tumis bawang putih hingga harum.",
+    "Masukkan kedelai muda ke dalam wajan dan aduk rata.",
+    "Tambahkan kecap asin, kecap manis, dan merica. Aduk terus hingga kedelai muda matang dan terbalut rata dengan bumbu.",
+    "Sajikan dalam piring saji dan hiasi dengan daun bawang cincang."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=16YiE514akgyIbSZjFDBihwEQbVl-eDqS"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a2e"
+  },
+  "name": "Spicy Edamame",
+  "description": "Edamame yang dimasak dengan bumbu pedas, memberikan sentuhan panas pada kacang kedelai yang lembut.",
+  "ingredients": [
+    {
+      "name": "2 cangkir edamame (kedelai muda), bersihkan",
+      "image": "https://drive.google.com/uc?export=view&id=1Mcxf2gYO-Xb88UNicmBM6BtV_Ir4CU3w"
+    },
+    {
+      "name": "1 sendok makan minyak wijen",
+      "image": "https://drive.google.com/uc?export=view&id=1vWAKA7kdem8j5Pd-BMFHUzZBPCjpBmGb"
+    },
+    {
+      "name": "1 sendok makan saus cabai (sesuai selera)",
+      "image": "https://drive.google.com/uc?export=view&id=1fdGB4FeaHzvs82yDLuvx_E_WI4sgaAUX"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Biji wijen (opsional) untuk hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=1TodPAoOltSICxK1yraj9LruGTgRwE-rH"
+    }
+  ],
+  "step": [
+    "Rebus edamame dalam air garam selama 5-7 menit atau hingga matang.",
+    "Tiriskan edamame dan biarkan dingin.",
+    "Panaskan minyak wijen dalam wajan besar.",
+    "Tambahkan edamame dan saus cabai ke dalam wajan. Aduk rata dan masak hingga edamame terbalut dengan saus.",
+    "Hidangkan edamame dalam mangkuk, beri taburan garam secukupnya, dan hias dengan biji wijen jika diinginkan."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=14fWaBeIHiWw4PZG7Epa38B41p8_b8CdL"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a2f"
+  },
+  "name": "Creamed Spinach",
+  "description": "Bayam yang dimasak dalam saus krim lembut, menciptakan hidangan klasik yang lezat dan gizi.",
+  "ingredients": [
+    {
+      "name": "4 cangkir bayam segar, cuci bersih",
+      "image": "https://drive.google.com/uc?export=view&id=1Qbxfp6sUhbuRgRTEKwtfR9kxDWr1qV8k"
+    },
+    {
+      "name": "2 sendok makan mentega",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "2 sendok makan tepung terigu",
+      "image": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V"
+    },
+    {
+      "name": "1 cangkir susu",
+      "image": "https://drive.google.com/uc?export=view&id=1b2zk22aZ-ss3qH3f02j8tMo2k1cSQZgI"
+    },
+    {
+      "name": "1/4 cangkir keju parmesan parut",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    }
+  ],
+  "step": [
+    "Rebus bayam dalam air mendidih selama 1-2 menit. Tiriskan dan peras airnya.",
+    "Panaskan mentega dalam panci besar. Tumis bawang putih (jika digunakan) hingga harum.",
+    "Tambahkan tepung terigu dan aduk rata untuk membuat roux.",
+    "Secara perlahan, tuangkan susu sambil terus diaduk agar tidak bergerindil.",
+    "Masak adonan susu hingga mengental dan mulai mendidih.",
+    "Tambahkan keju parmesan, garam, dan merica. Aduk hingga keju meleleh.",
+    "Masukkan bayam ke dalam saus dan aduk hingga bayam terbalut dengan baik.",
+    "Sajikan sebagai lauk pendamping."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1AfGknEL-4zs1dp4xVxqSc5aGRP4nI4nZ"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a30"
+  },
+  "name": "Spinach and Feta Stuffed Chicken Breast",
+  "description": "Dada ayam yang diisi dengan campuran bayam dan keju, dipanggang hingga matang sempurna.",
+  "ingredients": [
+    {
+      "name": "2 dada ayam, fillet dan pipihkan",
+      "image": "https://drive.google.com/uc?export=view&id=1W96iquK8-hGW74QuS6k8vSTM1LRRXqux"
+    },
+    {
+      "name": "2 cangkir bayam segar",
+      "image": "https://drive.google.com/uc?export=view&id=1Qbxfp6sUhbuRgRTEKwtfR9kxDWr1qV8k"
+    },
+    {
+      "name": "1/2 cangkir keju feta, potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "2 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Oregano secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1RbcUqN4yRRxDKy_77wlYdS4B6CR_8vBR"
+    },
+    {
+      "name": "Tusuk gigi untuk menutup",
+      "image": "https://drive.google.com/uc?export=view&id=1iLhWE-kBNi87e05_oAyrvJuJTRsKo4gX"
+    }
+  ],
+  "step": [
+    "Panaskan minyak zaitun dalam wajan. Tumis bawang putih hingga harum.",
+    "Tambahkan bayam segar dan masak hingga layu. Angkat dan tiriskan.",
+    "Campur bayam dengan keju feta, garam, merica, dan oregano.",
+    "Letakkan campuran bayam dan keju di tengah dada ayam dan gulung.",
+    "Gunakan tusuk gigi untuk menutup dada ayam yang sudah digulung.",
+    "Panggang dalam oven pada suhu 180°C selama 25-30 menit atau hingga dada ayam matang."
+  ],
+  "categori": "makanan utama",
+  "gambar": "https://drive.google.com/uc?export=view&id=14OJSJKj6ImryFQoJJ-QIf4vk2UHWasQq"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a31"
+  },
+  "name": "Corn Salad",
+  "description": "Salad segar dengan campuran jagung, tomat, dan sayuran, memberikan rasa manis dan renyah.",
+  "ingredients": [
+    {
+      "name": "2 cup biji jagung manis, rebus atau kalengan",
+      "image": "https://drive.google.com/uc?export=view&id=18q5imXVf2y26Iv1YzRuHFHAe4sHEdv7C"
+    },
+    {
+      "name": "1 buah tomat, potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1M96PpJsTm8V5ZOWu3y8QIpR04N8_wn3o"
+    },
+    {
+      "name": "1/2 bawang merah, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1AOVAtLppqAIHIJ0WjwXFBp7QO8Fuholo"
+    },
+    {
+      "name": "Daun ketumbar segar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1siSoE8CXVbC3bpA4deXwccU2A9ifaq49"
+    },
+    {
+      "name": "1 sendok makan jus lemon",
+      "image": "https://drive.google.com/uc?export=view&id=1CTFbPW1x_1fhTX9TkjZVue1KFq0BEC6N"
+    },
+    {
+      "name": "1 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Campurkan jagung manis, tomat, bawang merah, dan daun ketumbar dalam mangkuk besar.",
+    "Dalam mangkuk kecil, aduk rata jus lemon, minyak zaitun, garam, dan merica untuk membuat dressing.",
+    "Tuangkan dressing di atas campuran jagung dan aduk perlahan hingga tercampur rata.",
+    "Biarkan selama beberapa menit untuk meresap rasa sebelum disajikan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1EG4WtuBvNbaYGXI_hc2WwZhz9NWld5QY"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a32"
+  },
+  "name": "Corn Fritters",
+  "description": "Dadar jagung yang digoreng dengan tepung hingga keemasan, menciptakan camilan gurih yang populer.",
+  "ingredients": [
+    {
+      "name": "2 cup jagung manis, rebus atau kalengan",
+      "image": "https://drive.google.com/uc?export=view&id=18q5imXVf2y26Iv1YzRuHFHAe4sHEdv7C"
+    },
+    {
+      "name": "1/2 cangkir tepung terigu",
+      "image": "https://drive.google.com/uc?export=view&id=1sm5lrwyNes1P9rREVCTr-MST4OsAe27V"
+    },
+    {
+      "name": "1/2 cangkir tepung jagung",
+      "image": "https://drive.google.com/uc?export=view&id=1nhZv3dW8BfMCRHXoVuZYb3eM55ZECAiU"
+    },
+    {
+      "name": "1 sendok teh baking powder",
+      "image": "https://drive.google.com/uc?export=view&id=18jgJxuQ6dk2xxd3Ez4cZrPDm-qz4uBN-"
+    },
+    {
+      "name": "1/2 cup susu",
+      "image": "https://drive.google.com/uc?export=view&id=1b2zk22aZ-ss3qH3f02j8tMo2k1cSQZgI"
+    },
+    {
+      "name": "1 butir telur",
+      "image": "https://drive.google.com/uc?export=view&id=1ghBXlp8LZGZfdZVi9KlzvlMgqiaxwecH"
+    },
+    {
+      "name": "2 sendok makan mentega, lelehkan",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Minyak untuk menggoreng",
+      "image": "https://drive.google.com/uc?export=view&id=14Z-flvbqw5kVsaInhZuAEUWt0nZyiNlf"
+    }
+  ],
+  "step": [
+    "Campurkan jagung manis, tepung terigu, tepung jagung, baking powder, susu, telur, mentega cair, garam, dan merica dalam mangkuk besar.",
+    "Panaskan minyak dalam wajan besar.",
+    "Ambil sendok makan adonan dan letakkan ke dalam minyak panas, ratakan sedikit.",
+    "Goreng hingga kedua sisi menjadi kecokelatan.",
+    "Tiriskan di atas kertas tisu untuk menghilangkan sisa minyak.",
+    "Sajikan corn fritters panas sebagai camilan atau lauk pendamping."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1OlykqjoiulDufi_d4AsnDtT8d_ONDEGN"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a33"
+  },
+  "name": "Mashed Sweet Potatoes",
+  "description": "Kentang manis yang dihaluskan dan diolah menjadi hidangan lezat, sering dihidangkan sebagai alternatif sehat untuk kentang tumbuk.",
+  "ingredients": [
+    {
+      "name": "2 ubi jalar, kupas dan potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1yfTxx3VXGSc5st_3ydAqaZI-rlWINLBM"
+    },
+    {
+      "name": "2 sendok makan mentega",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "1/4 cangkir susu",
+      "image": "https://drive.google.com/uc?export=view&id=1b2zk22aZ-ss3qH3f02j8tMo2k1cSQZgI"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Maple syrup atau madu (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1Cd55H6q9AdZebWmXRFP2bhxuKamcOFNd"
+    }
+  ],
+  "step": [
+    "Rebus ubi jalar dalam air garam hingga empuk.",
+    "Tiriskan dan hancurkan ubi jalar dalam mangkuk besar.",
+    "Tambahkan mentega, susu, garam, dan merica. Aduk hingga rata dan lembut.",
+    "Jika suka, tambahkan maple syrup atau madu untuk memberikan rasa manis ekstra.",
+    "Sajikan sebagai lauk pendamping yang lezat."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1rfa14WNoSQikqhH9Ina8n5Xlkc0F0CA-"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a34"
+  },
+  "name": "Baked Sweet Potato Fries",
+  "description": "Kentang manis yang dipotong menjadi bentuk wedges, dipanggang hingga kecokelatan dan disajikan dengan saus pendamping.",
+  "ingredients": [
+    {
+      "name": "2 ubi jalar, kupas dan potong menjadi kentang goreng",
+      "image": "https://drive.google.com/uc?export=view&id=1yfTxx3VXGSc5st_3ydAqaZI-rlWINLBM"
+    },
+    {
+      "name": "2 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "1 sendok teh paprika",
+      "image": "https://drive.google.com/uc?export=view&id=1Z8tXjuzoD0czUCEMoSrszaRpIFv-Lq_6"
+    },
+    {
+      "name": "1/2 sendok teh bubuk bawang putih",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Saus yogurt atau saus tomat untuk celupan",
+      "image": "https://drive.google.com/uc?export=view&id=1QCXUvJtQrBvftInHfxXVQvj4fTfEAKt7"
+    }
+  ],
+  "step": [
+    "Panaskan oven pada suhu 220°C.",
+    "Campurkan potongan ubi jalar dengan minyak zaitun, paprika, bubuk bawang putih, garam, dan merica dalam mangkuk.",
+    "Sebar potongan ubi jalar di atas loyang panggangan yang telah dilapisi kertas panggangan.",
+    "Panggang dalam oven selama 20-25 menit atau hingga ubi jalar menjadi kecokelatan dan renyah.",
+    "Sajikan sweet potato fries panas dengan saus yogurt atau saus tomat sebagai pelengkap."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1IS9OjkDGmpBdnVpSwpB5sJaZSoFtxfBP"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a35"
+  },
+  "name": "Tomato Bruschetta",
+  "description": "Irisan tomat segar, bawang merah, dan daun basil yang disajikan di atas irisan roti, menciptakan bruschetta yang menyegarkan dan lezat.",
+  "ingredients": [
+    {
+      "name": "4 buah tomat, potong dadu kecil",
+      "image": "https://drive.google.com/uc?export=view&id=1M96PpJsTm8V5ZOWu3y8QIpR04N8_wn3o"
+    },
+    {
+      "name": "1/4 cangkir daun basil segar, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=16dzGHBofTUApZT5vly9lgAUSTaH2ddEL"
+    },
+    {
+      "name": "2 siung bawang putih, cincang halus",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "2 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Roti baguette, potong tipis dan panggang",
+      "image": "https://drive.google.com/uc?export=view&id=1_Dr154fGOeb6RFCt0gvzfe5HNFqlpIsL"
+    }
+  ],
+  "step": [
+    "Campurkan tomat, daun basil, bawang putih, minyak zaitun, garam, dan merica dalam mangkuk.",
+    "Panaskan oven pada suhu tinggi atau gunakan pemanggang untuk membakar potongan roti baguette.",
+    "Saat roti sudah kecokelatan, letakkan campuran tomat di atasnya.",
+    "Sajikan sebagai hidangan pembuka yang segar dan lezat."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1vb_Ph6WOc0yKKa4HJACu4o9vcmqVvrJ6"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a36"
+  },
+  "name": "Tomato and Mozzarella Salad (Caprese Salad)",
+  "description": "Salad klasik Italia yang terdiri dari irisan tomat segar, mozzarella creamy, dan daun basil, disajikan dengan minyak zaitun dan balsamic reduction.",
+  "ingredients": [
+    {
+      "name": "4 buah tomat, potong melingkar",
+      "image": "https://drive.google.com/uc?export=view&id=1M96PpJsTm8V5ZOWu3y8QIpR04N8_wn3o"
+    },
+    {
+      "name": "1 bola keju mozzarella, potong melingkar",
+      "image": "https://drive.google.com/uc?export=view&id=1MD8Cur0qJv5h-jbaDIshjiumfVACeEkn"
+    },
+    {
+      "name": "Daun basil segar",
+      "image": "https://drive.google.com/uc?export=view&id=16dzGHBofTUApZT5vly9lgAUSTaH2ddEL"
+    },
+    {
+      "name": "Minyak zaitun extra virgin",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Reduksi balsamic (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1L0WuXbW8kOUod8JVTzDxlZeu0Hyfx4PT"
+    }
+  ],
+  "step": [
+    "Susun secara bergantian irisan tomat, mozzarella, dan daun basil pada piring saji.",
+    "Taburkan garam dan merica secukupnya di atasnya.",
+    "Sebelum disajikan, teteskan minyak zaitun extra virgin di atas salad.",
+    "Jika suka, tambahkan reduksi balsamic untuk memberikan rasa manis.",
+    "Sajikan sebagai hidangan pembuka atau sebagai hidangan ringan."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1-JaKkOq-7QFELbItxcVrQDovVs-3ld1x"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a37"
+  },
+  "name": "Mashed Turnips",
+  "description": "Kentang yang dimasak dan dihaluskan dengan mentega dan krim, menciptakan hidangan yang lembut dan kaya rasa.",
+  "ingredients": [
+    {
+      "name": "4 buah lobak, kupas dan potong dadu",
+      "image": "https://drive.google.com/uc?export=view&id=1ciCVCecUH2L7GlE-0tKk3T6yBtdWIMz_"
+    },
+    {
+      "name": "2 kentang, kupas dan potong dadu (opsional)",
+      "image": "https://drive.google.com/uc?export=view&id=1tPb7et3-qKOJ_Yn8jVu3sIKyBcZJ-lQX"
+    },
+    {
+      "name": "2 sendok makan mentega",
+      "image": "https://drive.google.com/uc?export=view&id=1MI3sIoUSV1sup_DTCiGC8_j8RADdt8Un"
+    },
+    {
+      "name": "1/4 cangkir susu",
+      "image": "https://drive.google.com/uc?export=view&id=1b2zk22aZ-ss3qH3f02j8tMo2k1cSQZgI"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    },
+    {
+      "name": "Daun seledri cincang untuk hiasan",
+      "image": "https://drive.google.com/uc?export=view&id=1IUySrU3yIShusVhGD6327lozFuegXHU1"
+    }
+  ],
+  "step": [
+    "Rebus potongan lobak dan kentang dalam air garam hingga empuk.",
+    "Tiriskan dan hancurkan lobak dan kentang dalam mangkuk besar.",
+    "Tambahkan mentega, susu, garam, dan merica. Aduk hingga rata dan lembut.",
+    "Sajikan sebagai alternatif mashed potatoes, dan hias dengan daun seledri."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1J09iSImQw849Lbm_eJgCYc5ynDfpVQ_p"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a38"
+  },
+  "name": "Roasted Turnip Fries",
+  "description": "Kentang yang dipotong tipis dan digoreng hingga kecokelatan, memberikan camilan renyah dan gurih sebagai alternatif sehat.",
+  "ingredients": [
+    {
+      "name": "4 buah lobak, kupas dan potong menjadi kentang goreng",
+      "image": "https://drive.google.com/uc?export=view&id=1ciCVCecUH2L7GlE-0tKk3T6yBtdWIMz_"
+    },
+    {
+      "name": "2 sendok makan minyak zaitun",
+      "image": "https://drive.google.com/uc?export=view&id=11L7ifeSvBOoddgOogxIiCrJkD_X7_ked"
+    },
+    {
+      "name": "1 sendok teh bubuk bawang putih",
+      "image": "https://drive.google.com/uc?export=view&id=1lSJ99vFU0333JsFv7fjKEA3D1RZk1Drq"
+    },
+    {
+      "name": "1/2 sendok teh paprika",
+      "image": "https://drive.google.com/uc?export=view&id=1Z8tXjuzoD0czUCEMoSrszaRpIFv-Lq_6"
+    },
+    {
+      "name": "Garam",
+      "image": "https://drive.google.com/uc?export=view&id=14P2yVyROShn99Pbp7qLvZ_qQ1SnnfIvi"
+    },
+    {
+      "name": "Merica",
+      "image": "https://drive.google.com/uc?export=view&id=1JGXS6-tkqMTeKhmfw3gbXiDoWrsIW8vO"
+    }
+  ],
+  "step": [
+    "Panaskan oven pada suhu 220°C.",
+    "Campurkan potongan lobak dengan minyak zaitun, bubuk bawang putih, paprika, garam, dan merica dalam mangkuk.",
+    "Sebar potongan lobak di atas loyang panggangan yang telah dilapisi kertas panggangan.",
+    "Panggang dalam oven selama 20-25 menit atau hingga lobak menjadi kecokelatan dan renyah.",
+    "Sajikan turnip fries panas sebagai camilan atau lauk pendamping."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1oGnig_2uckr2PLsg5qHRoivMugnKYYVE"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a39"
+  },
+  "name": "Jus tutti frutti.",
+  "description": "Minuman segar dengan campuran berbagai buah-buahan, menciptakan rasa yang beragam dan menyegarkan.",
+  "ingredients": [
+    {
+      "name": "10 buah strawberry",
+      "image": "https://drive.google.com/uc?export=view&id=1nx-Si0_pQKwKzq7Q9Vdc8rKhXc9JqJGn"
+    },
+    {
+      "name": "1 slice semangka (selera)",
+      "image": "https://drive.google.com/uc?export=view&id=1dLbynovX9rgsMX9kM2jp0ME_t1DTcy3s"
+    },
+    {
+      "name": "1/2 buah nanas",
+      "image": "https://drive.google.com/uc?export=view&id=1vTjZCEFpUM4397xzwcz8Z_ZF-Eil18sf"
+    },
+    {
+      "name": "gula pasir secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=1cfIpSnsJFR5_bbLannlbCoDzMF5slBU9"
+    },
+    {
+      "name": "air secukupnya",
+      "image": "https://drive.google.com/uc?export=view&id=18sHIdOEdJgy7QA9ZVZAterz0b-IhmcA0"
+    }
+  ],
+  "step": [
+    "Blender semua bahan jadi satu sampai halus.",
+    "Tuang ke gelas."
+  ],
+  "categori": "minuman",
+  "gambar": "https://drive.google.com/uc?export=view&id=1odBiiYn3YGDPfc6s79K1v3pEu9lo25o8"
+},{
+  "_id": {
+    "$oid": "656c82d83ba65b000ca42a3a"
+  },
+  "name": "Puding semangka.",
+  "description": "Puding segar dengan rasa semangka yang manis dan lembut, menciptakan hidangan penutup yang unik dan menyegarkan.",
+  "ingredients": [
+    {
+      "name": "1 bungkus agar agar putih",
+      "image": "https://drive.google.com/uc?export=view&id=1GAmnwqhHuaQs_A-XqtheGoZ5NFDbENYB"
+    },
+    {
+      "name": "1 putih telur, kocok kaku",
+      "image": "https://drive.google.com/uc?export=view&id=10YzvHwsZ2ECM5pbgUUn8Vs3wLihdacpJ"
+    },
+    {
+      "name": "250 susu cair putih",
+      "image": "https://drive.google.com/uc?export=view&id=1b2zk22aZ-ss3qH3f02j8tMo2k1cSQZgI"
+    },
+    {
+      "name": "100 gram gula pasir",
+      "image": "https://drive.google.com/uc?export=view&id=1cfIpSnsJFR5_bbLannlbCoDzMF5slBU9"
+    },
+    {
+      "name": "1 sdm poppy seed",
+      "image": "https://drive.google.com/uc?export=view&id=1-omHtD7R-5b9yIaXPE9kEnhaawE3NQD2"
+    },
+    {
+      "name": "perisa strawberry",
+      "image": "https://drive.google.com/uc?export=view&id=1vsydu6MDWGxQym9fmPIsEcFLykGzpHOh"
+    },
+    {
+      "name": "3,5 gram agar agar putih",
+      "image": "https://drive.google.com/uc?export=view&id=1GAmnwqhHuaQs_A-XqtheGoZ5NFDbENYB"
+    },
+    {
+      "name": "350 ml susu cair putih",
+      "image": "https://drive.google.com/uc?export=view&id=1b2zk22aZ-ss3qH3f02j8tMo2k1cSQZgI"
+    },
+    {
+      "name": "3 sdm gula pasir",
+      "image": "https://drive.google.com/uc?export=view&id=1cfIpSnsJFR5_bbLannlbCoDzMF5slBU9"
+    },
+    {
+      "name": "perisa mangga kuning",
+      "image": "https://drive.google.com/uc?export=view&id=1T7f1jnNUD3Fm-HeTM-CY1cbr4nV-Xpri"
+    },
+    {
+      "name": "pewarna hijau",
+      "image": "https://drive.google.com/uc?export=view&id=1n5SlnqvEsruOYQZFrOC5cPAmi3gfSLat"
+    },
+    {
+      "name": "perisa melon",
+      "image": "https://drive.google.com/uc?export=view&id=1QN7vGZrMA-BFzbfXoKoK3WgGrltDYaWT"
+    }
+  ],
+  "step": [
+    "Bahan A: Campur agar-agar, gula pasir, dan susu. Masak hingga mendidih lalu angkat.",
+    "Kocok putih telur hingga kaku. Kecilkan kecepatan mikser. Tuang agar-agar sambil tetap dikocok rata.",
+    "Beri pewarna merah dan poppy seed. Tuang ke loyang segitiga sampai 3/4 tinggi loyang. Dinginkan hingga berkulit.",
+    "Bahan B: Masak agar-agar bersama gula dan susu hingga mendidih. Angkat.",
+    "Tuang 1/4 bagian perisa mangga ke atas puding merah. Biarkan dingin.",
+    "Beri puding putih perisa melon dan pewarna hijau. Kemudian tuang di atas puding kuning. Bekukan di kulkas. Balik lalu potong. sesuai selera."
+  ],
+  "categori": "camilan",
+  "gambar": "https://drive.google.com/uc?export=view&id=1eAFaGxUd9_Urm-uU3YSajGtrxO2HSmuC"
 }]
