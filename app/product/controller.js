@@ -5,7 +5,7 @@ module.exports = {
     listProduk: async (req, res) => {
         try {
           const page = parseInt(req.query.page) || 1; 
-          const limit = parseInt(req.query.limit) || 1;
+          const limit = parseInt(req.query.limit) || 99;
           const skip = (page - 1) * limit;
           const products = await Product.find().skip(skip).limit(limit);
           res.status(200).json({data:products});
