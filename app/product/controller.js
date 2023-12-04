@@ -12,7 +12,7 @@ module.exports = {
          
 
         } catch (err) {
-            res.status(500).json({message: err.message || 'internal server error'})
+            res.status(500).json({message: err.message || 'lah internal server error '})
         }
     },
     listProdukDetail: async (req, res) => {
