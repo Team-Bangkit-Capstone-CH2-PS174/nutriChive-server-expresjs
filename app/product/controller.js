@@ -18,6 +18,7 @@ module.exports = {
         res.status(200).json({
             data: products,
             totalCount: totalCount,
+            message: 'Data Success',
         });
     } catch (err) {
         res.status(500).json({ message: err.message || 'Internal server error' });
@@ -90,6 +91,7 @@ module.exports = {
   
       res.status(201).json({
         data: favorite,
+        message: 'Data Created successfull'
       });
     } catch (error) {
       res.status(500).json({ message: error.message || 'Internal server error' });
@@ -119,8 +121,20 @@ module.exports = {
     } catch (error) {
       res.status(500).json({ message: error.message || 'Internal server error' });
     }
-  }
+  },
   
+  listfavorite: async (req, res) => {
+    try {
+        const  userId  = req.user._id;
+        const favorite = await Favorite.find({ user: userId }).populate('user').populate('product');
+
+        res.status(200).json({data: favorite, message: 'Data Success'});
+
+        
+    } catch (err) {
+        res.status(500).json({message: err.message || 'internal server error'});
+    }
+},
   
 
    
