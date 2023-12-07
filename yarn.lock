@@ -532,6 +532,7 @@
   dependencies:
     "anymatch" "~3.1.2"
     "braces" "~3.0.2"
+    "fsevents" "~2.3.2"
     "glob-parent" "~5.1.2"
     "is-binary-path" "~2.1.0"
     "is-glob" "~4.0.1"
@@ -1133,6 +1134,7 @@
     "estraverse" "^4.2.0"
     "esutils" "^2.0.2"
     "optionator" "^0.8.1"
+    "source-map" "~0.6.1"
   optionalDependencies:
     "source-map" "~0.6.1"
 
@@ -1144,6 +1146,7 @@
     "esprima" "~1.0.4"
     "estraverse" "~1.5.0"
     "esutils" "~1.0.0"
+    "source-map" "~0.1.30"
   optionalDependencies:
     "source-map" "~0.1.30"
 
@@ -1606,6 +1609,7 @@
   "version" "2.2.0"
   dependencies:
     "jquery" "^3.0 || ^2.0 || ^1.0"
+    "jquery-mousewheel" "^3.1"
     "raphael" "^2.2.0 || ^2.1.1"
   optionalDependencies:
     "jquery-mousewheel" "^3.1"
@@ -1649,6 +1653,7 @@
   "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz"
   "version" "6.1.0"
   dependencies:
+    "graceful-fs" "^4.1.6"
     "universalify" "^2.0.0"
   optionalDependencies:
     "graceful-fs" "^4.1.6"
@@ -1873,6 +1878,7 @@
     "denque" "^1.4.1"
     "optional-require" "^1.1.8"
     "safe-buffer" "^5.1.2"
+    "saslprep" "^1.0.0"
   optionalDependencies:
     "saslprep" "^1.0.0"
 

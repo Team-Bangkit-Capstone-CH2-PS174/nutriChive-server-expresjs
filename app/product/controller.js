@@ -2,6 +2,7 @@ const Product = require('./model')
 const bcrypt = require('bcryptjs')
 
 module.exports = {
+
     listProduk: async (req, res) => {
         try {
           const page = parseInt(req.query.page) || 1; 
