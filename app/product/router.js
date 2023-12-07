@@ -1,9 +1,13 @@
 var express = require('express');
 var router = express.Router();
-
-const { listProduk,listProdukDetail,listProdukSearch } = require('./controller');
+const { isLoginUser } = require('../middleware/auth');
+const { listProduk,listProdukDetail,listProdukSearch,favorite,unfavorite, listfavorite } = require('./controller');
 /* GET home page. */
-router.get('/', listProduk);
+router.get('/',listProduk);
 router.get('/detail/:id', listProdukDetail);
 router.get('/search', listProdukSearch);
+router.post('/favorite', isLoginUser, favorite);
+router.post('/unfavorite', isLoginUser, unfavorite);
+router.get('/listfavorite', isLoginUser, listfavorite);
+
 module.exports = router;

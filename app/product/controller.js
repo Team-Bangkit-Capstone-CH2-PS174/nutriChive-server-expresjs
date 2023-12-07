@@ -1,7 +1,8 @@
-const Product = require('./model')
+const { Product,Favorite } = require('./model');
 const bcrypt = require('bcryptjs')
 
 module.exports = {
+<<<<<<< HEAD
 
     listProduk: async (req, res) => {
         try {
@@ -16,6 +17,31 @@ module.exports = {
             res.status(500).json({message: err.message || 'lah internal server error '})
         }
     },
+=======
+  listProduk: async (req, res) => {
+    try {
+
+        const page = parseInt(req.query.page) || 1; 
+        const limit = parseInt(req.query.limit) || 99;
+        const skip = (page - 1) * limit;
+
+        // Retrieve products and total count from the database
+        const [products, totalCount] = await Promise.all([
+            Product.find().skip(skip).limit(limit).exec(),
+            Product.countDocuments().skip(skip).limit(limit), // Count total number of documents based on the same skip and limit
+        ]);
+
+        res.status(200).json({
+            data: products,
+            totalCount: totalCount,
+            message: 'Data Success',
+        });
+    } catch (err) {
+        res.status(500).json({ message: err.message || 'Internal server error' });
+    }
+},
+
+>>>>>>> 881231b0804b4137386a57af71e43c1733f10d0c
     listProdukDetail: async (req, res) => {
       try {
           const { id } = req.params;
@@ -55,6 +81,77 @@ module.exports = {
       res.status(500).json({ message: err.message || 'Internal server error' });
     }
   },
+  
+  favorite: async (req, res) => {
+    try {
+      const body = req.body;
+      const userId = req.user._id;
+      const productId = body.product;
+  
+      // Check if the favorite already exists for the user and product
+      const existingFavorite = await Favorite.findOne({ user: userId, product: productId });
+  
+      if (existingFavorite) {
+        return res.status(400).json({
+          message: 'Favorite already exists for this user and product.',
+        });
+      }
+  
+      // If the favorite does not exist, save it
+      const payload = {
+        user: userId,
+        product: productId,
+      };
+  
+      const favorite = new Favorite(payload);
+      await favorite.save();
+  
+      res.status(201).json({
+        data: favorite,
+        message: 'Data Created successfull'
+      });
+    } catch (error) {
+      res.status(500).json({ message: error.message || 'Internal server error' });
+    }
+  },
+  unfavorite: async (req, res) => {
+    try {
+      const body = req.body;
+      const userId = req.user._id;
+      const productId = body.product;
+  
+      // Check if the favorite exists for the user and product
+      const existingFavorite = await Favorite.findOne({ user: userId, product: productId });
+  
+      if (!existingFavorite) {
+        return res.status(404).json({
+          message: 'Favorite not found for this user and product.',
+        });
+      }
+  
+      // If the favorite exists, remove it
+      await existingFavorite.remove();
+  
+      res.status(200).json({
+        message: 'Unfavorited successfully.',
+      });
+    } catch (error) {
+      res.status(500).json({ message: error.message || 'Internal server error' });
+    }
+  },
+  
+  listfavorite: async (req, res) => {
+    try {
+        const  userId  = req.user._id;
+        const favorite = await Favorite.find({ user: userId }).populate('user').populate('product');
+
+        res.status(200).json({data: favorite, message: 'Data Success'});
+
+        
+    } catch (err) {
+        res.status(500).json({message: err.message || 'internal server error'});
+    }
+},
   
 
    
