@@ -119,8 +119,35 @@ module.exports = {
     } catch (error) {
       res.status(500).json({ message: error.message || 'Internal server error' });
     }
-  }
+  },
   
+  listFavSearch: async (req, res) => {
+    try {
+      const userId = req.user._id;
+      // Extract search parameters from the request query
+      const { id_product } = req.query;
+  
+      // Define a basic query to find all products
+      let query = {};
+  
+      // If a keyword is provided, add a search condition
+      if (id_product) {
+        query = {
+          $or: [
+            { product: id_product },
+            // Add more fields to search if needed
+          ],
+        };
+      }
+  
+      // Use the query to find products
+      const favorite = await Favorite.find({ user: userId, ...query });
+  
+      res.status(200).json({ data: favorite });
+    } catch (err) {
+      res.status(500).json({ message: err.message || 'Internal server error' });
+    }
+  },
   
 
    
