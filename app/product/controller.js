@@ -2,28 +2,20 @@ const { Product,Favorite } = require('./model');
 const bcrypt = require('bcryptjs')
 
 module.exports = {
-  listProduk: async (req, res) => {
-    try {
 
-        const page = parseInt(req.query.page) || 1; 
-        const limit = parseInt(req.query.limit) || 99;
-        const skip = (page - 1) * limit;
+    listProduk: async (req, res) => {
+        try {
+          const page = parseInt(req.query.page) || 1; 
+          const limit = parseInt(req.query.limit) || 99;
+          const skip = (page - 1) * limit;
+          const products = await Product.find().skip(skip).limit(limit);
+          res.status(200).json({data:products});
+         
 
-        // Retrieve products and total count from the database
-        const [products, totalCount] = await Promise.all([
-            Product.find().skip(skip).limit(limit).exec(),
-            Product.countDocuments().skip(skip).limit(limit), // Count total number of documents based on the same skip and limit
-        ]);
-
-        res.status(200).json({
-            data: products,
-            totalCount: totalCount,
-        });
-    } catch (err) {
-        res.status(500).json({ message: err.message || 'Internal server error' });
-    }
-},
-
+        } catch (err) {
+            res.status(500).json({message: err.message || 'lah internal server error '})
+        }
+    },
     listProdukDetail: async (req, res) => {
       try {
           const { id } = req.params;
@@ -90,6 +82,7 @@ module.exports = {
   
       res.status(201).json({
         data: favorite,
+        message: 'Data Created successfull'
       });
     } catch (error) {
       res.status(500).json({ message: error.message || 'Internal server error' });
