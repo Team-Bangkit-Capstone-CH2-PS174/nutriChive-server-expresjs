@@ -6,7 +6,7 @@ const { listProduk,listProdukDetail,listProdukSearch,favorite,unfavorite,listfav
 router.get('/',listProduk);
 router.get('/detail/:id', listProdukDetail);
 router.get('/search', listProdukSearch);
-router.get('/listfavorite', listfavorite);
+router.get('/listfavorite',isLoginUser, listfavorite);
 router.post('/favorite', isLoginUser, favorite);
 router.post('/unfavorite', isLoginUser, unfavorite);
 
