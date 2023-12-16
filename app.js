@@ -18,8 +18,10 @@ var transactionRouter = require('./app/transaction/router');
 var userRouter = require('./app/users/router');
 var authRouter = require('./app/auth/router');
 
+
 var midtransRouter = require('./app/midtrans/router');
 var produkRouter = require('./app/product/router');
+var chatAiRouter = require('./app/chatAI/router');
 var midtransRouter = require('./app/midtrans/router');
 var app = express();
 const URL = '/api/v1'
@@ -57,12 +59,14 @@ app.use('/transaction', transactionRouter);
 
 
 
+
 //API
 
 app.use(`${URL}/users`, userRouter);
 app.use(`${URL}/auth`, authRouter);
 app.use(`${URL}/midtrans`, midtransRouter);
 app.use(`${URL}/products`, produkRouter); 
+app.use(`${URL}/chatAi`, chatAiRouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
