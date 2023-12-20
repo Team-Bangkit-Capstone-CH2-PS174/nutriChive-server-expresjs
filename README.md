@@ -1,18 +1,14 @@
 # NutriChive : Food Ingredient, Recipe, and Nutrition Archive
 
-kelompok CH2-PS174
-1 (ML) M312BSY0473 – Andika Kavin Septiano – Universitas Sebelas Maret - Active
-2 (ML) M312BSY0914 – Muhammad Anang Fathur Rohman – Universitas Sebelas Maret
-- Active
-3 (ML) M312BSY1043 – Mohammad Al Furqon – Universitas Sebelas Maret - Active
-4 (CC) C157BSY4206 – Dani Hidayat – Universitas Mayasari Bakti - Active
-5 (CC) C183BSY3336 – Iqbal Dwi Nur Khoirul Anam – Universitas Amikom Yogyakarta -
-Active
-6 7 (MD) A157BSY2857 – Agung Muhammad Albaehaqi – Universitas Mayasari Bakti -
-Active
-8 (MD) A296BSX2632 – Aisyatuz Zahroh – Universitas Pembangunan Nasional Veteran
-Jawa Timur - Active
+## Kelompok CH2-PS174
 
+1. (ML) M312BSY0473 – Andika Kavin Septiano – Universitas Sebelas Maret - Active
+2. (ML) M312BSY0914 – Muhammad Anang Fathur Rohman – Universitas Sebelas Maret - Active
+3. (ML) M312BSY1043 – Mohammad Al Furqon – Universitas Sebelas Maret - Active
+4. (CC) C157BSY4206 – Dani Hidayat – Universitas Mayasari Bakti - Active
+5. (CC) C183BSY3336 – Iqbal Dwi Nur Khoirul Anam – Universitas Amikom Yogyakarta - Active
+6. (MD) A157BSY2857 – Agung Muhammad Albaehaqi – Universitas Mayasari Bakti - Active
+7. (MD) A296BSX2632 – Aisyatuz Zahroh – Universitas Pembangunan Nasional Veteran Jawa Timur - Active
 
 
 # Nutrichive Backend
@@ -22,10 +18,19 @@ Jawa Timur - Active
 4. npm run prod //for server database
 
 
-## Technology
+# Teknologi
 ![Express.js](assets/Express.png)
-## DATABASE
-![mongodb](assets/MongoDB.png)
+
+## Database
+![MongoDB](assets/MongoDB.png)
+
+Proyek ini menggunakan teknologi-teknologi berikut:
+
+### 1. Express.js
+Express.js adalah framework JavaScript yang ringan dan fleksibel untuk pengembangan aplikasi web. Dengan fitur-fitur seperti routing yang mudah dan middleware yang dapat disesuaikan, Express.js menjadi pilihan populer dalam pengembangan aplikasi backend.
+
+### 2. MongoDB
+MongoDB adalah sistem basis data NoSQL yang memungkinkan penyimpanan data dalam format dokumen. Dengan kemampuan skalabilitas dan fleksibilitas skema, MongoDB menjadi pilihan yang baik untuk proyek-proyek yang membutuhkan penyimpanan data yang dinamis.
 
 ## API Endpoints
 ## Auth
