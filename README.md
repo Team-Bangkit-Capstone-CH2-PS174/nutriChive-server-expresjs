@@ -32,6 +32,9 @@ Express.js adalah framework JavaScript yang ringan dan fleksibel untuk pengemban
 ### 2. MongoDB
 MongoDB adalah sistem basis data NoSQL yang memungkinkan penyimpanan data dalam format dokumen. Dengan kemampuan skalabilitas dan fleksibilitas skema, MongoDB menjadi pilihan yang baik untuk proyek-proyek yang membutuhkan penyimpanan data yang dinamis.
 
+
+##MAIN URL
+URL/api/v1/{endpoint)
 ## API Endpoints
 ## Auth
 | Method | Endpoint | Expectation | Code | Response Body | Result |
