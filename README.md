@@ -39,6 +39,7 @@ Jawa Timur - Active
 | --- | --- | --- | --- | --- | --- |
 | GET | /products | Able to retrieve a list of product data | 200 | Array of Product data | ✅ |
 | GET | /products/{id} | Able to retrieve a specific product data | 200 | Single Product data | ✅ |
+| GET | /products/search?keyword={name_product} | search product data | 200 | search Product data | ✅ |
 | GET | /products/listfavorite/ | Able to retrieve a list of favorite products | 200 | List of product data | ✅ |
 | POST | /products/favorite | Able to add a favorite product data | 200 | Adding Favorite data | ✅ |
 | POST | /products/unfavorite | Able to remove a favorite product data | 200 | Removing Favorite data | ✅ |
@@ -46,5 +47,6 @@ Jawa Timur - Active
 
 ## POSTMAN DOCUMENTATION
 
+![LIST PRODUCT](assets/POSTMAN/LIST_PRODUCT.png)
 
 
