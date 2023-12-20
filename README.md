@@ -51,7 +51,26 @@ MongoDB adalah sistem basis data NoSQL yang memungkinkan penyimpanan data dalam 
 | GET | /products/searchFav?id_product={id_product} | Able to search for a specific favorite product data | 200 | Single product data | ✅ |
 
 ## POSTMAN DOCUMENTATION
-
+## Login
+![Login](assets/POSTMAN/Login.png)
+## Register
+![registration](assets/POSTMAN/registration.png)
+## List Product
 ![LIST PRODUCT](assets/POSTMAN/LIST_PRODUCT.png)
+## Detail
+![DETAIL](assets/POSTMAN/DETAIL.png)
+## Add Favorite
+![ADD_FAVORITE](assets/POSTMAN/ADD_FAVORITE.png)
+## Delete Favorite
+![DELETE_FAVORITE](assets/POSTMAN/DELETE_FAVORITE.png)
+## List Favorite
+![LIST FAVORITE](assets/POSTMAN/LIST_FAVORITE.png)
+## Search Favorite
+![SEARCH_FAVORITE](assets/POSTMAN/SEARCH_FAVORITE.png)
+## Search Product
+![SEARCH PRODUCT](assets/POSTMAN/SEARCH_PRODUCT.png)
+
+
+
 
 
